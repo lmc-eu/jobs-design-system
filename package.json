@@ -1,0 +1,38 @@
+{
+  "name": "@lmc-eu/jobs-design-tokens",
+  "version": "0.1.0",
+  "description": "Design tokens for Jobs Design System",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmc-eu/jobs-design-tokens.git"
+  },
+  "engines": {
+    "node": ">=14",
+    "yarn": "~1.22.10"
+  },
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist/scss && cp -r package.json README.md dist/ && cp -r src/scss/generated/* src/scss/@tokens.scss dist/scss/",
+    "commit:lint:test": "yarn commitlint --from HEAD~1 --to HEAD --verbose",
+    "format": "yarn format:check",
+    "format:check": "prettier --check ./",
+    "format:fix": "prettier --write ./",
+    "prepare": "husky install",
+    "lint": "stylelint --config .stylelintrc.js ./src/**/*.scss",
+    "test": "yarn lint"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.2.1",
+    "@lmc-eu/commitlint-config": "1.0.10",
+    "@lmc-eu/conventional-changelog-lmc-github": "2.0.0",
+    "@lmc-eu/prettier-config": "1.2.2",
+    "@lmc-eu/stylelint-config": "3.0.0",
+    "husky": "7.0.4",
+    "prettier": "2.5.1",
+    "stylelint": "13.13.1"
+  }
+}

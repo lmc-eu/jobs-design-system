@@ -1,0 +1,11 @@
+# Dependency directory
+node_modules
+
+# Log files
+*.log
+
+# Distribution files
+dist
+
+# NPM rc file created by CI
+.npmrc

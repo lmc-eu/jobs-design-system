@@ -1,0 +1,6 @@
+{
+  "extends": ["@lmc-eu", "@lmc-eu:scheduleWeeklyBusinessHours"],
+  "ignorePresets": [":ignoreModulesAndTests"],
+  "ignorePaths": ["/node_modules/**"],
+  "prConcurrentLimit": 3
+}
