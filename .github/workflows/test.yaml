@@ -31,6 +31,5 @@ jobs:
       - name: Check code-style format
         run: yarn format:check
 
-      # TODO: Uncomment once README and generated tokens are merged into `main`.
-      # - name: Test Build
-      #   run: yarn build
+      - name: Test Build
+        run: yarn build
