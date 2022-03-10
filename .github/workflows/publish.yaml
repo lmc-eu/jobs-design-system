@@ -1,0 +1,56 @@
+name: version
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  version:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      # set up git since we will later push to the repo
+      - run: git config --global user.name "GitHub CD bot"
+      - run: git config --global user.email "github-cd-bot@example.com"
+
+      - name: Get merged PR
+        id: merged_pr
+        uses: actions-ecosystem/action-get-merged-pull-request@v1
+
+      # upgrade npm version in package.json to the tag used in PR label.
+      - name: Major Version
+        if: ${{ contains(steps.merged_pr.outputs.labels, 'BC' }}
+        run: yarn version major
+
+      - name: Minor Version
+        if: ${{ contains(steps.merged_pr.outputs.labels, 'feature' }}
+        run: yarn version minor
+
+      - name: Patch Version
+        if: ${{ contains(steps.merged_pr.outputs.labels, 'bug' }}
+        run: yarn version patch
+
+      # build the project
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: cd dist/ && yarn publish --ignore-scripts
+        env:
+          # Use a token to publish to NPM. See below for how to set it up
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      # push the version changes to GitHub
+      - name: Push
+        run: git push
+        env:
+          # The secret is passed automatically. Nothing to configure.
+          github-token: ${{ secrets.GITHUB_TOKEN }}
