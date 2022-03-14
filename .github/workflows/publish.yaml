@@ -48,7 +48,7 @@ jobs:
         run: cd dist/ && yarn publish --ignore-scripts
         env:
           # Use a token to publish to NPM. See below for how to set it up
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       # push the version changes to GitHub
       - name: Push
