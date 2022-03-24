@@ -30,15 +30,15 @@ jobs:
       # upgrade npm version in package.json to the tag used in PR label.
       - name: Major Version
         if: ${{ contains(steps.merged_pr.outputs.labels, 'BC') }}
-        run: yarn version major
+        run: yarn version --major
 
       - name: Minor Version
         if: ${{ contains(steps.merged_pr.outputs.labels, 'feature') }}
-        run: yarn version minor
+        run: yarn version --minor
 
       - name: Patch Version
         if: ${{ contains(steps.merged_pr.outputs.labels, 'bug') }}
-        run: yarn version patch
+        run: yarn version --patch
 
       # build the project
       - name: Build
