@@ -9,17 +9,6 @@ $body-large-link: (
     ),
 ) !default;
 
-$body-large-link-underline: (
-    mobile: (
-        font-family: "'Inter', sans-serif",
-        font-size: 1.125rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.5,
-        text-decoration: underline,
-    ),
-) !default;
-
 $body-large-text-bold: (
     mobile: (
         font-family: "'Inter', sans-serif",
@@ -60,17 +49,6 @@ $body-medium-link: (
     ),
 ) !default;
 
-$body-medium-link-underline: (
-    mobile: (
-        font-family: "'Inter', sans-serif",
-        font-size: 1rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.5,
-        text-decoration: underline,
-    ),
-) !default;
-
 $body-medium-text-bold: (
     mobile: (
         font-family: "'Inter', sans-serif",
@@ -98,17 +76,6 @@ $body-medium-text-regular: (
         font-style: normal,
         font-weight: 400,
         line-height: 1.5,
-    ),
-) !default;
-
-$body-small-link-underline: (
-    mobile: (
-        font-family: "'Inter', sans-serif",
-        font-size: 0.875rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.5,
-        text-decoration: underline,
     ),
 ) !default;
 
@@ -162,17 +129,6 @@ $body-xlarge-link: (
     ),
 ) !default;
 
-$body-xlarge-link-underline: (
-    mobile: (
-        font-family: "'Inter', sans-serif",
-        font-size: 1.375rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.5,
-        text-decoration: underline,
-    ),
-) !default;
-
 $body-xlarge-text-bold: (
     mobile: (
         font-family: "'Inter', sans-serif",
@@ -200,17 +156,6 @@ $body-xlarge-text-regular: (
         font-style: normal,
         font-weight: 400,
         line-height: 1.5,
-    ),
-) !default;
-
-$body-xsmall-link-underline: (
-    mobile: (
-        font-family: "'Inter', sans-serif",
-        font-size: 0.75rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.5,
-        text-decoration: underline,
     ),
 ) !default;
 
@@ -278,33 +223,6 @@ $heading-large-link: (
     ),
 ) !default;
 
-$heading-large-link-underline: (
-    mobile: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 2.375rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
-    ),
-    tablet: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 2.375rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
-    ),
-    desktop: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 2.375rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
-    ),
-) !default;
-
 $heading-large-text: (
     mobile: (
         font-family: "'Nunito Sans', sans-serif",
@@ -350,33 +268,6 @@ $heading-medium-link: (
         font-style: normal,
         font-weight: 400,
         line-height: 1.3,
-    ),
-) !default;
-
-$heading-medium-link-underline: (
-    mobile: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 1.875rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
-    ),
-    tablet: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 2.125rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
-    ),
-    desktop: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 2.125rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
     ),
 ) !default;
 
@@ -428,33 +319,6 @@ $heading-small-link: (
     ),
 ) !default;
 
-$heading-small-link-underline: (
-    mobile: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 1.375rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
-    ),
-    tablet: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 1.5rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
-    ),
-    desktop: (
-        font-family: "'Nunito Sans', sans-serif",
-        font-size: 1.5rem,
-        font-style: normal,
-        font-weight: 400,
-        line-height: 1.3,
-        text-decoration: underline,
-    ),
-) !default;
-
 $heading-small-text: (
     mobile: (
         font-family: "'Nunito Sans', sans-serif",
@@ -481,37 +345,29 @@ $heading-small-text: (
 
 $styles: (
     body-large-link: $body-large-link,
-    body-large-link-underline: $body-large-link-underline,
     body-large-text-bold: $body-large-text-bold,
     body-large-text-italic: $body-large-text-italic,
     body-large-text-regular: $body-large-text-regular,
     body-medium-link: $body-medium-link,
-    body-medium-link-underline: $body-medium-link-underline,
     body-medium-text-bold: $body-medium-text-bold,
     body-medium-text-italic: $body-medium-text-italic,
     body-medium-text-regular: $body-medium-text-regular,
-    body-small-link-underline: $body-small-link-underline,
     body-small-text-bold: $body-small-text-bold,
     body-small-text-italic: $body-small-text-italic,
     body-small-text-link: $body-small-text-link,
     body-small-text-regular: $body-small-text-regular,
     body-xlarge-link: $body-xlarge-link,
-    body-xlarge-link-underline: $body-xlarge-link-underline,
     body-xlarge-text-bold: $body-xlarge-text-bold,
     body-xlarge-text-italic: $body-xlarge-text-italic,
     body-xlarge-text-regular: $body-xlarge-text-regular,
-    body-xsmall-link-underline: $body-xsmall-link-underline,
     body-xsmall-text-bold: $body-xsmall-text-bold,
     body-xsmall-text-italic: $body-xsmall-text-italic,
     body-xsmall-text-link: $body-xsmall-text-link,
     body-xsmall-text-regular: $body-xsmall-text-regular,
     heading-large-link: $heading-large-link,
-    heading-large-link-underline: $heading-large-link-underline,
     heading-large-text: $heading-large-text,
     heading-medium-link: $heading-medium-link,
-    heading-medium-link-underline: $heading-medium-link-underline,
     heading-medium-text: $heading-medium-text,
     heading-small-link: $heading-small-link,
-    heading-small-link-underline: $heading-small-link-underline,
     heading-small-text: $heading-small-text,
 ) !default;

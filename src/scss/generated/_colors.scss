@@ -18,7 +18,7 @@ $action-link-secondary-default: #3f4547 !default;
 $action-link-secondary-disabled: #c4c4c4 !default;
 $action-link-secondary-hover: #2e3233 !default;
 $action-link-secondary-visited: #a7bcc2 !default;
-$action-primary-active: #d54f0b !default;
+$action-primary-active: #d46306 !default;
 $action-primary-default: #f48225 !default;
 $action-primary-disabled: #f3f3f3 !default;
 $action-primary-hover: #ed720c !default;
@@ -48,7 +48,6 @@ $background-interactive-inverted-active: #1717174d !default;
 $background-interactive-inverted-default: #17171700 !default;
 $background-interactive-inverted-hover: #17171733 !default;
 $background-inverted: #171717 !default;
-$border-focus-default: #61b3ff !default;
 $border-primary-active: #c9c9c9 !default;
 $border-primary-default: #dcdada !default;
 $border-primary-disabled: #f4f4f4 !default;
@@ -72,11 +71,12 @@ $emotion-success-background: #e8f8f2 !default;
 $emotion-success-default: #198f65 !default;
 $emotion-success-disabled: #e5e5e5 !default;
 $emotion-success-hover: #13714f !default;
-$emotion-warning-active: #ae4009 !default;
+$emotion-warning-active: #b65302 !default;
 $emotion-warning-background: #fff6ea !default;
 $emotion-warning-default: #ed720c !default;
 $emotion-warning-disabled: #e5e5e5 !default;
-$emotion-warning-hover: #d54f0b !default;
+$emotion-warning-hover: #d46306 !default;
+$focus-default: #61b3ff !default;
 $gradients-gradient-darkside: #073256 !default;
 $gradients-gradient-lightside: #185c95 !default;
 $gradients-gradient-mid: #0c4471 !default;
@@ -145,7 +145,6 @@ $background-colors: (
 ) !default;
 
 $border-colors: (
-    focus-default: $border-focus-default,
     primary-active: $border-primary-active,
     primary-default: $border-primary-default,
     primary-disabled: $border-primary-disabled,
@@ -180,6 +179,10 @@ $emotion-colors: (
     warning-default: $emotion-warning-default,
     warning-disabled: $emotion-warning-disabled,
     warning-hover: $emotion-warning-hover,
+) !default;
+
+$focus-colors: (
+    default: $focus-default,
 ) !default;
 
 $gradients-colors: (
