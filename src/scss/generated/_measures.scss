@@ -1,4 +1,5 @@
 // Generated Measures from Supernova. Do not edit manually.
+$space-0: 0 !default;
 $space-100: 1px !default;
 $space-200: 2px !default;
 $space-300: 4px !default;
@@ -15,6 +16,7 @@ $space-1300: 72px !default;
 $space-1400: 80px !default;
 
 $spaces: (
+    0: $space-0,
     100: $space-100,
     200: $space-200,
     300: $space-300,
