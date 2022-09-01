@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/lerna",
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "useNx": true,
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "changelogPreset": "@lmc-eu/conventional-changelog-lmc-github",
+      "push": false,
+      "message": "Chore(release): Publish",
+      "ignoreChanges": ["yarn.lock"]
+    },
+    "publish": {
+      "message": "Chore(release): Publish"
+    }
+  }
+}

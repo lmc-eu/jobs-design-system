@@ -1,39 +1,64 @@
 {
-  "name": "@lmc-eu/jobs-design-tokens",
-  "version": "1.1.2",
-  "description": "Design tokens for Jobs Design System",
+  "name": "jobs-design-system",
+  "version": "1.0.0",
+  "description": "Jobs Design System",
+  "keywords": [
+    "jobs",
+    "design",
+    "system"
+  ],
   "license": "MIT",
-  "publishConfig": {
-    "access": "public",
-    "directory": "dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lmc-eu/jobs-design-tokens.git"
-  },
+  "private": true,
   "engines": {
-    "node": ">=14",
+    "node": ">=16",
     "yarn": "~1.22.10"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist/scss && cp -r package.json README.md dist/ && cp -r src/scss/generated/* src/scss/@tokens.scss dist/scss/",
+    "build": "yarn packages:build",
+    "es:lint": "eslint ./",
+    "es:lint:fix": "yarn es:lint --fix",
     "commit:lint:test": "yarn commitlint --from HEAD~1 --to HEAD --verbose",
     "format": "yarn format:check",
     "format:check": "prettier --check ./",
     "format:fix": "prettier --write ./",
-    "prepare": "husky install",
-    "lint": "stylelint --config .stylelintrc.js ./src/**/*.scss",
-    "test": "yarn lint"
+    "format:fix:changelog": "prettier --write ./packages/**/CHANGELOG.md",
+    "prepare": "is-ci || husky install",
+    "test": "yarn packages:test",
+    "types": "yarn packages:types",
+    "lint": "npm-run-all --parallel es:lint packages:lint",
+    "packages:lint": "lerna run lint --parallel --no-sort",
+    "packages:start": "lerna run start --parallel",
+    "packages:test": "lerna run test",
+    "packages:types": "lerna run types --no-sort",
+    "packages:build": "lerna run build --no-sort",
+    "packages:publish": "lerna publish",
+    "packages:diff": "lerna diff",
+    "packages:changed": "lerna changed",
+    "packages:list": "lerna ls",
+    "release": "npm-run-all --serial packages:build && packages:publish",
+    "version": "yarn format:fix:changelog"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.1",
-    "@lmc-eu/commitlint-config": "1.0.10",
-    "@lmc-eu/conventional-changelog-lmc-github": "2.0.0",
-    "@lmc-eu/prettier-config": "1.2.2",
-    "@lmc-eu/stylelint-config": "3.0.0",
-    "husky": "7.0.4",
-    "prettier": "2.5.1",
-    "stylelint": "13.13.1",
-    "stylelint-config-prettier": "^9.0.3"
+    "@commitlint/cli": "17.0.3",
+    "@lmc-eu/commitlint-config": "1.0.12",
+    "@lmc-eu/conventional-changelog-lmc-github": "2.0.5",
+    "@lmc-eu/eslint-config-react": "1.0.2",
+    "@lmc-eu/prettier-config": "1.2.3",
+    "eslint": "8.22.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "8.0.1",
+    "is-ci": "3.0.1",
+    "lerna": "5.4.3",
+    "npm-run-all": "4.1.5",
+    "nx": "14.5.10",
+    "prettier": "2.7.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.7.4"
   }
 }
