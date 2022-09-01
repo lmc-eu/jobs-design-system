@@ -10,6 +10,9 @@ module.exports = {
       1,
       'always',
       [
+        // Use when committing changes/additions/removals to exact package
+        'design-tokens',
+        'icons',
         // Use when affecting CI process
         'ci',
         // Use for anything that does not directly affect packages, ie. updating repo-wide

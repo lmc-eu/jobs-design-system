@@ -1,23 +1,49 @@
-# Jobs Design Tokens
+<div align="center">
 
-[![Code Quality Checks][ccc-badge]][ccc-action]
-[![@lmc-eu/spirit-design-tokens][npm-badge]][npm-pkg]
+### Jobs Design System
 
-Design tokens for Jobs.cz brand. Based on [Spirit Design Tokens][spirit-dt]. Automatically generated from [Figma][figma] using [Supernova][supernova].
+[![Maintained with Lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org)
+[![Code Quality Checks](https://github.com/lmc-eu/jobs-design-system/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/lmc-eu/jobs-design-system/actions)
+[![Coverage Status](https://coveralls.io/repos/github/lmc-eu/jobs-design-system/badge.svg?branch=main)](https://coveralls.io/github/lmc-eu/jobs-design-system?branch=main)
 
-## Contributing
+Jobs is an open-source design system developed by [LMC][lmc].
 
-Changes from [Figma][figma] are imported and parsed using [Supernova][supernova], which is generating pull-requests using [Spirit SCSS Exporter][spirit-scss-exporter]. The pull-request with updated design tokens needs to be labeled and checked before merge.
+</div>
 
-Version bumping is done using semantic versioning. The version type is determined by pull-request labels. Please use `BC` for major changes, `feature` for minor changes, and `bug` for patches.
+## Getting Started
 
-Package publishing is done automatically using Github Actions by merging the pull-request into the main branch.
+See individual [packages](#packages) to learn how to get started.
 
-[ccc-badge]: https://github.com/lmc-eu/jobs-design-tokens/actions/workflows/test.yaml/badge.svg?branch=main
-[ccc-action]: https://github.com/lmc-eu/jobs-design-tokens/actions
-[npm-badge]: https://img.shields.io/npm/v/%40lmc-eu/jobs-design-tokens.svg?style=flat-square
-[npm-pkg]: https://www.npmjs.com/package/@lmc-eu/jobs-design-tokens
-[figma]: https://figma.com
-[supernova]: https://www.supernova.io/
-[spirit-dt]: https://github.com/lmc-eu/spirit-design-system/tree/main/packages/design-tokens
-[spirit-scss-exporter]: https://github.com/lmc-eu/exporter-spirit-scss
+## Packages
+
+| Package name                                             | Description                          | Version                                             |
+| -------------------------------------------------------- | ------------------------------------ | --------------------------------------------------- |
+| [`@lmc-eu/jobs-design-tokens`](./packages/design-tokens) | Design tokens for jobs Design System | [![@lmc-eu/jobs-design-tokens][jdt-badge]][jdt-npm] |
+| [`@lmc-eu/jobs-icons`](./packages/icons)                 | Icons for jobs Design System         | [![@lmc-eu/jobs-icons][ji-badge]][ji-npm]           |
+
+## Development
+
+### Prerequisites
+
+- [Node >= 16](https://nodejs.org)
+- [Yarn 1.22](https://yarnpkg.com)
+- [Lerna 5.x](https://lerna.js.org)
+
+### Start Development
+
+- `git clone ssh://git@github.com:lmc-eu/jobs-design-system.git`
+- `cd jobs-design-system`
+- `yarn install`
+- `yarn start`
+
+See [`package.json`](./package.json) for all available tasks.
+
+## License
+
+See the [LICENSE](LICENSE.md) file for information.
+
+[lmc]: https://github.com/lmc-eu
+[jdt-npm]: https://www.npmjs.com/package/@lmc-eu/jobs-design-tokens
+[jdt-badge]: https://img.shields.io/npm/v/%40lmc-eu/jobs-design-tokens.svg?style=flat-square
+[ji-npm]: https://www.npmjs.com/package/@lmc-eu/jobs-icons
+[ji-badge]: https://img.shields.io/npm/v/%40lmc-eu/jobs-icons.svg?style=flat-square
