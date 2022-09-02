@@ -18,8 +18,8 @@ See individual [packages](#packages) to learn how to get started.
 
 | Package name                                             | Description                          | Version                                             |
 | -------------------------------------------------------- | ------------------------------------ | --------------------------------------------------- |
-| [`@lmc-eu/jobs-design-tokens`](./packages/design-tokens) | Design tokens for jobs Design System | [![@lmc-eu/jobs-design-tokens][jdt-badge]][jdt-npm] |
-| [`@lmc-eu/jobs-icons`](./packages/icons)                 | Icons for jobs Design System         | [![@lmc-eu/jobs-icons][ji-badge]][ji-npm]           |
+| [`@lmc-eu/jobs-design-tokens`](./packages/design-tokens) | Design tokens for Jobs Design System | [![@lmc-eu/jobs-design-tokens][jdt-badge]][jdt-npm] |
+| [`@lmc-eu/jobs-icons`](./packages/icons)                 | Icons for Jobs Design System         | [![@lmc-eu/jobs-icons][ji-badge]][ji-npm]           |
 
 ## Development
 
