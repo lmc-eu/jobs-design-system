@@ -4,7 +4,6 @@
 
 ## Install
 
-
 ```shell
 yarn add @lmc-eu/jobs-icons
 ```
