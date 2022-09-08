@@ -22,7 +22,6 @@
     "format": "yarn format:check",
     "format:check": "prettier --check ./",
     "format:fix": "prettier --write ./",
-    "prepare": "husky install",
     "lint": "stylelint --config ../../.stylelintrc.js ./src/**/*.scss",
     "test": "yarn lint"
   },
