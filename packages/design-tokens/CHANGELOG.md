@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.2.0"></a>
+
+# [1.2.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.1.2...@lmc-eu/jobs-design-tokens@1.2.0) (2022-09-08)
+
+### Chores
+
+- **repo:** Move design-tokens to packages as a preparation for ([fc320c9](https://github.com/lmc-eu/jobs-design-tokens/commit/fc320c9)), closes [#DS-289](https://github.com/lmc-eu/jobs-design-tokens/issues/DS-289)
+- **repo:** Setup Jobs Design System monorepo (refs [#DS-289](https://github.com/lmc-eu/jobs-design-tokens/issues/DS-289)) ([bdce3da](https://github.com/lmc-eu/jobs-design-tokens/commit/bdce3da))
+
+### Features
+
+- **design-tokens:** Add shx to design-tokens package ([77e41ec](https://github.com/lmc-eu/jobs-design-tokens/commit/77e41ec))
+
+### Styles
+
+- **repo:** Add missing configurations and dependencies for running ([a36333a](https://github.com/lmc-eu/jobs-design-tokens/commit/a36333a))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.1.2"></a>
 
 ## [1.1.2](https://github.com/lmc-eu/spirit-design-system/compare/@lmc-eu/jobs-design-tokens@1.1.1...@lmc-eu/jobs-design-tokens@1.1.2) (2022-06-09)

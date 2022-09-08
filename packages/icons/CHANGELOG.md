@@ -2,3 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+<a name="0.2.0"></a>
+
+# 0.2.0 (2022-09-08)
+
+### Chores
+
+- **icons:** Fix build script whe there are no files ([24ece1a](https://github.com/lmc-eu/jobs-design-system/commit/24ece1a))
+
+### Features
+
+- **icons:** Introduce package for `jobs-icons` (refs [#DS-291](https://github.com/lmc-eu/jobs-design-system/issues/DS-291)) ([1bcf191](https://github.com/lmc-eu/jobs-design-system/commit/1bcf191))
+- **icons:** Manually add icons from Jobs Supernova [#DS-290](https://github.com/lmc-eu/jobs-design-system/issues/DS-290) ([e5b9ad3](https://github.com/lmc-eu/jobs-design-system/commit/e5b9ad3))
+
+### Styles
+
+- **repo:** Add missing configurations and dependencies for running ([a36333a](https://github.com/lmc-eu/jobs-design-system/commit/a36333a))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
