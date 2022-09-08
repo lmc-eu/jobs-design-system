@@ -6,7 +6,7 @@
 [![Code Quality Checks](https://github.com/lmc-eu/jobs-design-system/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/lmc-eu/jobs-design-system/actions)
 [![Coverage Status](https://coveralls.io/repos/github/lmc-eu/jobs-design-system/badge.svg?branch=main)](https://coveralls.io/github/lmc-eu/jobs-design-system?branch=main)
 
-Jobs is an open-source design system developed by [LMC][lmc].
+Open-source parts of Jobs Design System developed by [LMC][lmc].
 
 </div>
 
