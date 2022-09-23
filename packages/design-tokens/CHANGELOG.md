@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.4.0"></a>
+
+# [1.4.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.3.0...@lmc-eu/jobs-design-tokens@1.4.0) (2022-09-23)
+
+### BREAKING CHANGES
+
+- **design-tokens:** Remove link typography tokens and add grid-columns token ([8a0e87f](https://github.com/lmc-eu/jobs-design-tokens/commit/8a0e87f))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.3.0"></a>
 
 # [1.3.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.2.0...@lmc-eu/jobs-design-tokens@1.3.0) (2022-09-15)
