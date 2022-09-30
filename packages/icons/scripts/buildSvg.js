@@ -17,7 +17,9 @@ const normalizeAndCopySvg = (srcDir, distDir) => {
           const svgPath = path.join(srcDir, svg);
           const svgDistPath = path.join(distDir, svg);
           const svgContent = fs.readFileSync(svgPath, 'utf8');
-          const svgContentFixed = svgContent.replace(/fill="#\w+"/g, 'fill="currentColor"');
+          const svgContentFixed = svgContent
+            .replace(/fill="#\w+"/g, 'fill="currentColor"')
+            .replace(/stroke="#\w+"/g, 'stroke="currentColor"');
           const svgSpriteContent = svgContentFixed
             .replace(/<svg.*(viewBox="(\d+\s){3}\d+").*>/, `<symbol id="${svg.slice(0, -4)}" $1>`)
             .replace(/<\/svg>/g, '</symbol>');
