@@ -149,6 +149,99 @@ $body-xsmall-text-regular: (
     ),
 ) !default;
 
+$display-large-text: (
+    mobile: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 2rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+    tablet: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 2.375rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+    desktop: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 2.625rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+) !default;
+
+$display-medium-text: (
+    mobile: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 2rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+    tablet: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 2.25rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+    desktop: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 2.375rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+) !default;
+
+$display-small-text: (
+    mobile: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 1.5rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+    tablet: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 1.5rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+    desktop: (
+        font-family: "'Nunito Sans', sans-serif",
+        font-size: 1.5rem,
+        font-style: normal,
+        font-weight: 800,
+        line-height: 1.3,
+    ),
+) !default;
+
+$handwritten-caption: (
+    mobile: (
+        font-family: "'Caveat', sans-serif",
+        font-size: 1.375rem,
+        font-style: normal,
+        font-weight: 700,
+    ),
+    tablet: (
+        font-family: "'Caveat', sans-serif",
+        font-size: 1.5rem,
+        font-style: normal,
+        font-weight: 700,
+    ),
+    desktop: (
+        font-family: "'Caveat', sans-serif",
+        font-size: 1.5rem,
+        font-style: normal,
+        font-weight: 700,
+    ),
+) !default;
+
 $heading-large-text: (
     mobile: (
         font-family: "'Nunito Sans', sans-serif",
@@ -237,6 +330,10 @@ $styles: (
     body-xsmall-text-bold: $body-xsmall-text-bold,
     body-xsmall-text-italic: $body-xsmall-text-italic,
     body-xsmall-text-regular: $body-xsmall-text-regular,
+    display-large-text: $display-large-text,
+    display-medium-text: $display-medium-text,
+    display-small-text: $display-small-text,
+    handwritten-caption: $handwritten-caption,
     heading-large-text: $heading-large-text,
     heading-medium-text: $heading-medium-text,
     heading-small-text: $heading-small-text,
