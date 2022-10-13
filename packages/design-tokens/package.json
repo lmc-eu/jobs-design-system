@@ -30,11 +30,12 @@
     "@lmc-eu/commitlint-config": "1.0.10",
     "@lmc-eu/conventional-changelog-lmc-github": "2.0.0",
     "@lmc-eu/prettier-config": "1.2.2",
-    "@lmc-eu/stylelint-config": "3.0.0",
+    "@lmc-eu/stylelint-config": "5.0.0",
     "husky": "7.0.4",
     "prettier": "2.5.1",
     "shx": "0.3.4",
-    "stylelint": "13.13.1",
-    "stylelint-config-prettier": "^9.0.3"
+    "stylelint": "14.11.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-order": "5.0.0"
   }
 }
