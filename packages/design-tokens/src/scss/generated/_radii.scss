@@ -1,8 +1,8 @@
 // Generated Radii from Supernova. Do not edit manually.
 $radius-0: 0 !default;
-$radius-100: 4px !default;
-$radius-200: 8px !default;
-$radius-300: 12px !default;
+$radius-100: 2px !default;
+$radius-200: 4px !default;
+$radius-300: 8px, 12px !default;
 
 $radii: (
     0: $radius-0,
