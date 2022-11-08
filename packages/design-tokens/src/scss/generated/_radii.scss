@@ -1,14 +1,14 @@
 // Generated Radii from Supernova. Do not edit manually.
 $radius-0: 0 !default;
+$radius-50: 2px !default;
 $radius-100: 4px !default;
 $radius-200: 8px !default;
 $radius-300: 12px !default;
-$radius-50: 2px !default;
 
 $radii: (
     0: $radius-0,
+    50: $radius-50,
     100: $radius-100,
     200: $radius-200,
     300: $radius-300,
-    50: $radius-50,
 ) !default;
