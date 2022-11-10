@@ -1,6 +1,6 @@
 {
   "name": "@lmc-eu/jobs-design-tokens",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Design tokens for Jobs Design System",
   "license": "MIT",
   "publishConfig": {
