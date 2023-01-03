@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.5.0"></a>
+
+# [0.5.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.4.0...@lmc-eu/jobs-icons@0.5.0) (2023-01-03)
+
+### Features
+
+- **icons:** Manually update icons from Supernova ([e5c46aa](https://github.com/lmc-eu/jobs-design-system/commit/e5c46aa))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.4.0"></a>
 
 # [0.4.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.3.0...@lmc-eu/jobs-icons@0.4.0) (2022-09-23)
