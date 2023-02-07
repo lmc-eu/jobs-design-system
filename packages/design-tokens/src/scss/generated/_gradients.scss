@@ -1,8 +1,12 @@
 // Generated Gradients from Supernova. Do not edit manually.
+$basic-ltr: linear-gradient(90deg, #fff 0%, #ffffff00 100%) !default;
+$basic-rtl: linear-gradient(270deg, #fff 0%, #ffffff00 100%) !default;
 $gradient-diagonal: linear-gradient(135deg, #073256 0%, #185c95 100%) !default;
 $gradient-horizontal: linear-gradient(90deg, #073256 0%, #185c95 100%) !default;
 
 $gradients: (
+    basic-ltr: $gradient-basic-ltr,
+    basic-rtl: $gradient-basic-rtl,
     diagonal: $gradient-diagonal,
     horizontal: $gradient-horizontal,
 ) !default;
