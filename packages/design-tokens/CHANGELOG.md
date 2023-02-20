@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.6.0"></a>
+
+# [1.6.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.5.0...@lmc-eu/jobs-design-tokens@1.6.0) (2023-02-20)
+
+### BREAKING CHANGES
+
+- **design-tokens:** Updated styles and tokens ([abc23b9](https://github.com/lmc-eu/jobs-design-tokens/commit/abc23b9))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.5.0"></a>
 
 # [1.5.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.4.3...@lmc-eu/jobs-design-tokens@1.5.0) (2023-01-03)
