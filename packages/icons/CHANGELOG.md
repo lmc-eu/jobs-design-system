@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.6.0"></a>
+
+# [0.6.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.5.0...@lmc-eu/jobs-icons@0.6.0) (2023-02-23)
+
+### BREAKING CHANGES
+
+- **icons:** Unify icons viewbox, replace icon `recreation` ([0ac81c1](https://github.com/lmc-eu/jobs-design-system/commit/0ac81c1))
+
+### Features
+
+- **icons:** Add new icons ([c557fa7](https://github.com/lmc-eu/jobs-design-system/commit/c557fa7))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.5.0"></a>
 
 # [0.5.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.4.0...@lmc-eu/jobs-icons@0.5.0) (2023-01-03)
