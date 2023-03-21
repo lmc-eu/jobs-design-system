@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.7.0"></a>
+
+# [0.7.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.6.0...@lmc-eu/jobs-icons@0.7.0) (2023-03-21)
+
+### Features
+
+- **icons:** Add dualtone icons ([246874c](https://github.com/lmc-eu/jobs-design-system/commit/246874c))
+- **icons:** Add support icon ([35246d3](https://github.com/lmc-eu/jobs-design-system/commit/35246d3))
+- **icons:** Change default fill color ([16c7af9](https://github.com/lmc-eu/jobs-design-system/commit/16c7af9))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.6.0"></a>
 
 # [0.6.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.5.0...@lmc-eu/jobs-icons@0.6.0) (2023-02-23)
