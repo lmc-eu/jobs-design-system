@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.7.0"></a>
+
+# [1.7.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.6.1...@lmc-eu/jobs-design-tokens@1.7.0) (2023-03-22)
+
+### Features
+
+- **design-tokens:** Add new heading style, edit colors and line heights ([303adc0](https://github.com/lmc-eu/jobs-design-tokens/commit/303adc0))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.6.1"></a>
 
 ## [1.6.1](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.6.0...@lmc-eu/jobs-design-tokens@1.6.1) (2023-03-07)
