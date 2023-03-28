@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.8.1"></a>
+
+## [0.8.1](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.8.0...@lmc-eu/jobs-icons@0.8.1) (2023-03-28)
+
+### Bug Fixes
+
+- **icons:** Replace `stroke` with `fill` to be able to change `support` icon color ([79fed08](https://github.com/lmc-eu/jobs-design-system/commit/79fed08))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.8.0"></a>
 
 # [0.8.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.7.0...@lmc-eu/jobs-icons@0.8.0) (2023-03-27)
