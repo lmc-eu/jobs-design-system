@@ -1,0 +1,37 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all
+        font-family="Arial, -apple-system, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif"
+        font-size="16px"
+        line-height="27px"
+      />
+      <mj-section background-color="transparent" padding="0px" />
+      <mj-divider border-width="1px" border-color="#E2E8ED" border-style="solid" />
+      <mj-spacer height="32px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      body { font-family: Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; }
+    </mj-style>
+  </mj-head>
+  <mj-body css-class="Page" width="680px">
+    <mjc-header
+      externalLink="https://jobs.cz"
+      imageAlt="jobs.cz logo"
+      imageUrl="https://ijobs.cz/static/images/email/logo-jobs.png?1"
+    />
+
+    <mjc-content>
+      <mj-column>
+        <mjc-heading title="Basic mjmml template"></mjc-heading>
+        <mjc-text>For a look at all components and variants look to styleGuide.</mjc-text>
+        <mjc-text color="secondary" padding-top="24px" size="small">
+          Small text component, small text component, <strong>strong text</strong>
+        </mjc-text>
+
+        <mjc-link href="https://jobs.cz" color="secondary">Link</mjc-link>
+        <mjc-button href="https:/jobs.cz">Button to Jobs.cz</mjc-button>
+      </mj-column>
+    </mjc-content>
+  </mj-body>
+</mjml>

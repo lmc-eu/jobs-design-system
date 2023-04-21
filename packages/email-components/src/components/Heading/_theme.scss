@@ -1,0 +1,28 @@
+@use 'sass:map';
+@use '@tokens' as tokens;
+@use '../../scss/@email-tokens' as email-tokens;
+
+$breakpoint: tokens.$breakpoint-tablet;
+
+$sizes: (
+    medium: (
+        mobile: (
+            font-size: email-tokens.$heading-medium-font-size-mobile,
+            line-height: email-tokens.$heading-medium-line-height,
+        ),
+        tablet: (
+            font-size: email-tokens.$heading-medium-font-size-tablet,
+            line-height: email-tokens.$heading-medium-line-height,
+        ),
+    ),
+    large: (
+        mobile: (
+            font-size: email-tokens.$heading-large-font-size-mobile,
+            line-height: email-tokens.$heading-large-line-height,
+        ),
+        tablet: (
+            font-size: email-tokens.$heading-large-font-size-tablet,
+            line-height: email-tokens.$heading-large-line-height,
+        ),
+    ),
+);

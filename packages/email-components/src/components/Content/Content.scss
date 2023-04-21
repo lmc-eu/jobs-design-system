@@ -1,0 +1,16 @@
+@use 'theme';
+@use '../../scss/tools/breakpoint' as breakpoint;
+
+.Content {
+    max-width: 680px;
+    margin: 0 auto;
+    background: theme.$background;
+}
+
+.Content__cell {
+    padding: theme.$padding-mobile;
+
+    @include breakpoint.up(theme.$breakpoint) {
+        padding: theme.$padding-tablet;
+    }
+}

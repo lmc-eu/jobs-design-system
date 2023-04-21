@@ -1,2 +1,6 @@
 # Build files
 /dist
+/packages/email-components/dist
+
+# Ignoring html files because Prettier prefers closing slash on the end of the tag
+packages/email-components/**/*.html

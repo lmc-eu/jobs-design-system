@@ -1,0 +1,10 @@
+@use 'theme';
+@use '../../scss/@email-tokens' as email-tokens;
+@use '../../scss/tools/dictionaries' as dictionaries;
+
+.Heading {
+    margin-bottom: calc(email-tokens.$text-medium-font-size / 2);
+    font-weight: email-tokens.$font-weight-bold;
+}
+
+@include dictionaries.generate-typography-sizes('Heading', theme.$sizes);

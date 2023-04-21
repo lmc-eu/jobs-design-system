@@ -1,0 +1,9 @@
+@use 'sass:map';
+
+@mixin variant($variant, $variables) {
+    .Button--#{$variant} {
+        color: map.get($variables, default-color);
+        border-color: map.get($variables, default-border-color);
+        background-color: map.get($variables, default-background);
+    }
+}

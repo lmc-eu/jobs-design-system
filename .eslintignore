@@ -1,0 +1,10 @@
+# .eslintignore
+
+node_modules
+
+# NOTE:
+# The following directives are only relevant when linting the whole
+# project directory, ie. running `eslint .` ⚠️
+
+# If you compile JavaScript into some output folder, exclude it here
+dist

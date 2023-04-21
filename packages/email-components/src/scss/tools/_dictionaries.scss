@@ -1,0 +1,31 @@
+@use 'sass:map';
+@use '@tokens' as tokens;
+@use 'breakpoint' as breakpoint;
+
+@mixin generate-colors($class-name, $dictionary-values) {
+    @each $dictionary-name, $dictionary-value in $dictionary-values {
+        .#{$class-name}--#{$dictionary-name} {
+            color: $dictionary-value;
+        }
+    }
+}
+
+@mixin generate-typography-sizes($class-name, $dictionary-values) {
+    @each $dictionary-name, $dictionary-breakpoints in $dictionary-values {
+        .#{$class-name}--#{$dictionary-name} {
+            @each $breakpoint-name, $breakpoint-value in tokens.$breakpoints {
+                @include breakpoint.up($breakpoint-value) {
+                    @if map.has-key($dictionary-breakpoints, $breakpoint-name) {
+                        $dictionary-variables: map.get($dictionary-breakpoints, $breakpoint-name);
+                        @if map.has-key($dictionary-variables, font-size) {
+                            font-size: map.get($dictionary-variables, font-size);
+                        }
+                        @if map.has-key($dictionary-variables, line-height) {
+                            line-height: map.get($dictionary-variables, line-height);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
