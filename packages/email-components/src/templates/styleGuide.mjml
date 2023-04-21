@@ -1,0 +1,65 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all
+        font-family="Arial, -apple-system, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif"
+        font-size="16px"
+        line-height="27px"
+      />
+      <mj-section background-color="transparent" padding="0px" />
+      <mj-divider border-width="1px" border-color="#E2E8ED" border-style="solid" />
+      <mj-spacer height="32px" />
+    </mj-attributes>
+    <mjc-head-styles fileUrl="src/scss/foundation/index.scss" inline />
+    <mj-style inline="inline">
+      body { /* provide defaults for image alt and table insides */ font-family: Arial, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, sans-serif; font-size: 16px; }
+    </mj-style>
+  </mj-head>
+  <mj-body css-class="Page" width="680px">
+    <mjc-content>
+      <mj-column>
+        <mj-spacer height="80px" />
+        <mj-text><strong>COMPONENT: Header</strong></mj-text>
+      </mj-column>
+    </mjc-content>
+    <mjc-header
+      imageUrl="https://ijobs.cz/static/images/email/logo-jobs.png?1"
+      imageAlt="jobs.cz logo"
+      externalLink="https://jobs.cz"
+    />
+
+    <mjc-content>
+      <mj-column>
+        <mj-spacer height="80px" />
+        <mj-text><strong>COMPONENT: Heading</strong></mj-text>
+        <mj-spacer height="10px" />
+        <mjc-heading title="Heading medium"></mjc-heading>
+        <mjc-heading title="Heading large" size="large"></mjc-heading>
+
+        <mj-spacer height="120px" />
+        <mj-text><strong>COMPONENT: Text</strong></mj-text>
+        <mj-spacer height="10px" />
+        <mjc-text>Medium text</mjc-text>
+        <mjc-text color="secondary">Medium text with secondary color, <strong>strong text</strong></mjc-text>
+        <mjc-text size="small">Small text</mjc-text>
+        <mjc-text color="secondary" size="small"
+          >Small text component with secondary color, <strong>strong text</strong></mjc-text
+        >
+
+        <mj-spacer height="120px" />
+        <mj-text><strong>COMPONENT: Link</strong></mj-text>
+        <mj-spacer height="10px" />
+        <mjc-link href="https://jobs.cz">Primary link</mjc-link>
+        <mjc-link href="https://jobs.cz" color="secondary">Secondary link</mjc-link>
+        <mjc-link href="https://jobs.cz" size="small">Small font link</mjc-link>
+
+        <mj-spacer height="120px" />
+        <mj-text><strong>COMPONENT: Button</strong></mj-text>
+        <mj-spacer height="10px" />
+        <mjc-button href="https:/jobs.cz" padding-top="0">Primary button</mjc-button>
+        <mjc-button href="https:/jobs.cz" color="secondary" padding-top="0">Secondary button</mjc-button>
+      </mj-column>
+    </mjc-content>
+  </mj-body>
+</mjml>

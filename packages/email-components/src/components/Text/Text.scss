@@ -1,0 +1,7 @@
+@use 'sass:map';
+@use 'theme';
+@use '../../scss/tools/dictionaries' as dictionaries;
+
+@include dictionaries.generate-typography-sizes('Text', theme.$sizes);
+
+@include dictionaries.generate-colors('Text', theme.$colors);

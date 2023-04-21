@@ -1,0 +1,49 @@
+@use 'theme';
+@use 'tools';
+
+.Button {
+    width: 100%;
+    border: 0;
+    border-collapse: separate;
+
+    @media (min-width: theme.$breakpoint) {
+        width: auto;
+    }
+}
+
+.Button__cell {
+    border: 0;
+    mso-padding-alt: theme.$padding-y-mobile theme.$padding-x-mobile;
+    border-radius: theme.$border-radius;
+    cursor: auto;
+
+    @media (min-width: theme.$breakpoint) {
+        mso-padding-right-alt: theme.$padding-x-tablet;
+        mso-padding-left-alt: theme.$padding-x-tablet;
+    }
+}
+
+.Button__link {
+    display: block;
+    padding: theme.$padding-y-mobile theme.$padding-x-mobile;
+    mso-padding-alt: 0;
+    font-size: theme.$font-size-mobile;
+    line-height: theme.$line-height-mobile;
+    text-align: center;
+    text-decoration: none;
+    border-width: theme.$border-width;
+    border-style: theme.$border-style;
+    border-radius: theme.$border-radius;
+    user-select: none;
+    cursor: pointer;
+
+    @media (min-width: theme.$breakpoint) {
+        padding: theme.$padding-y-mobile theme.$padding-x-tablet;
+        font-size: theme.$font-size-tablet;
+        line-height: theme.$line-height-tablet;
+    }
+}
+
+@each $color-name, $color-variables in theme.$colors {
+    @include tools.variant($color-name, $color-variables);
+}

@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "./dist/components/Button/Button.js",
+    "./dist/components/Content/Content.js",
+    "./dist/components/Header/Header.js",
+    "./dist/components/Heading/Heading.js",
+    "./dist/components/Link/Link.js",
+    "./dist/components/Text/Text.js",
+    "./dist/headComponents/Scss/Scss.js"
+  ]
+}

@@ -1,0 +1,11 @@
+@use 'sass:map';
+@use 'theme';
+@use '../../scss/tools/dictionaries' as dictionaries;
+
+.Link {
+    text-decoration: underline;
+}
+
+@include dictionaries.generate-typography-sizes('Link', theme.$sizes);
+
+@include dictionaries.generate-colors('Link', theme.$colors);

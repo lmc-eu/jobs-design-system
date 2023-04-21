@@ -1,0 +1,12 @@
+@use 'sass:map';
+@use 'sass:meta';
+@use '@tokens' as tokens;
+
+$background-backup: tokens.$brand-primary;
+
+$background-value: $background-backup;
+@if meta.global-variable-exists(gradient-diagonal, tokens) {
+    $background-value: tokens.$gradient-diagonal;
+}
+
+$background: $background-value;

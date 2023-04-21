@@ -1,0 +1,31 @@
+@use 'sass:map';
+@use '@tokens' as tokens;
+@use '../../scss/@email-tokens' as email-tokens;
+
+$breakpoint: tokens.$breakpoint-tablet;
+
+$colors: (
+    primary: tokens.$action-link-primary-default,
+    secondary: tokens.$action-link-secondary-default,
+    inverted: tokens.$action-link-inverted-default,
+);
+
+$sizes: (
+    small: (
+        mobile: (
+            font-size: email-tokens.$text-small-font-size,
+            line-height: email-tokens.$text-small-line-height,
+        ),
+        // Small variant has only one font size.
+    ),
+    medium: (
+        mobile: (
+            font-size: email-tokens.$text-medium-font-size,
+            line-height: email-tokens.$text-medium-line-height,
+        ),
+        tablet: (
+            font-size: email-tokens.$text-large-font-size,
+            line-height: email-tokens.$text-large-line-height,
+        ),
+    ),
+);

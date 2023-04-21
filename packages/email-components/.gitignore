@@ -1,0 +1,5 @@
+index.html
+dist
+html-output/*
+node_modules
+.DS_store
