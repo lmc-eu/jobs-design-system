@@ -16,10 +16,11 @@ See individual [packages](#packages) to learn how to get started.
 
 ## Packages
 
-| Package name                                             | Description                          | Version                                             |
-| -------------------------------------------------------- | ------------------------------------ | --------------------------------------------------- |
-| [`@lmc-eu/jobs-design-tokens`](./packages/design-tokens) | Design tokens for Jobs Design System | [![@lmc-eu/jobs-design-tokens][jdt-badge]][jdt-npm] |
-| [`@lmc-eu/jobs-icons`](./packages/icons)                 | Icons for Jobs Design System         | [![@lmc-eu/jobs-icons][ji-badge]][ji-npm]           |
+| Package name                                                   | Description                            | Version                                                |
+| -------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------ |
+| [`@lmc-eu/jobs-design-tokens`](./packages/design-tokens)       | Design tokens for Jobs Design System   | [![@lmc-eu/jobs-design-tokens][jdt-badge]][jdt-npm]    |
+| [`@lmc-eu/jobs-icons`](./packages/icons)                       | Icons for Jobs Design System           | [![@lmc-eu/jobs-icons][ji-badge]][ji-npm]              |
+| [`@lmc-eu/jobs-email-components`](./packages/email-components) | E-mail components for e-mail templates | [![@lmc-eu/jobs-email-components][jec-badge]][jec-npm] |
 
 ## Development
 
@@ -47,3 +48,5 @@ See the [LICENSE](LICENSE.md) file for information.
 [jdt-badge]: https://img.shields.io/npm/v/%40lmc-eu/jobs-design-tokens.svg?style=flat-square
 [ji-npm]: https://www.npmjs.com/package/@lmc-eu/jobs-icons
 [ji-badge]: https://img.shields.io/npm/v/%40lmc-eu/jobs-icons.svg?style=flat-square
+[jec-npm]: https://www.npmjs.com/package/@lmc-eu/jobs-email-components
+[jec-badge]: https://img.shields.io/npm/v/%40lmc-eu/jobs-email-components.svg?style=flat-square

@@ -28,9 +28,9 @@
     "format:fix": "prettier --write ./",
     "format:fix:changelog": "prettier --write ./CHANGELOG.md",
     "lint:styles:default": "stylelint './**/*.scss'",
-    "postinstall": "yarn build",
     "register-components": "node registerComponents.js",
-    "build": "yarn build:scripts",
+    "build:styles": "shx cp -R src/components/ dist/ && shx rm 'dist/**/*.ts'",
+    "build": "shx rm -rf dist && shx mkdir -p dist && shx cp -r package.json README.md dist/ && yarn build:scripts && yarn build:styles",
     "build:scripts": "tsc",
     "start": "yarn build:scripts && yarn css:compile && yarn build:template",
     "dev": "yarn css:watch & tsc --watch",
@@ -63,7 +63,9 @@
     "style-loader": "^3.3.2",
     "stylelint": "^14.11.0",
     "stylelint-config-prettier": "9.0.3",
-    "stylelint-prettier": "^2.0.0"
+    "stylelint-prettier": "^2.0.0",
+    "typescript": "^4.9.5",
+    "yarn": "^1.22.19"
   },
   "dependencies": {
     "@types/mjml": "^4.7.0",
@@ -72,8 +74,6 @@
     "mjml": "^4.13.0",
     "mjml-core": "^4.13.0",
     "mjml-validator": "^4.13.0",
-    "sass": "^1.60.0",
-    "typescript": "^4.9.5",
-    "yarn": "^1.22.19"
+    "sass": "^1.60.0"
   }
 }
