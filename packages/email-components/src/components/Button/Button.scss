@@ -27,9 +27,11 @@
     display: block;
     padding: theme.$padding-y-mobile theme.$padding-x-mobile;
     mso-padding-alt: 0;
+    font-weight: theme.$font-weight;
     font-size: theme.$font-size-mobile;
     line-height: theme.$line-height-mobile;
     text-align: center;
+    /* stylelint-disable-next-line declaration-no-important */
     text-decoration: none !important;
     border-width: theme.$border-width;
     border-style: theme.$border-style;
