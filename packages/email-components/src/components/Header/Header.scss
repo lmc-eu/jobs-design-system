@@ -1,6 +1,9 @@
+// stylelint-disable selector-class-pattern
 @use 'theme';
 
-.Header {
+.Header,
+.Header-outlook {
     background: theme.$background-backup;
     background: theme.$background;
 }
+// stylelint-enable

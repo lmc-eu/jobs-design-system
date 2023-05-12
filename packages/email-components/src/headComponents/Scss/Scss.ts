@@ -34,6 +34,7 @@ export default class Scss extends HeadComponent {
     }
     const css = compile(filePath, { loadPaths: ['../design-tokens/src/scss'] }).css.toString();
 
-    add(this.getAttribute('inline') === 'inline' ? 'inlineStyle' : 'style', css);
+    add('style', css);
+    this.getAttribute('inline') === 'inline' ? add('inlineStyle', css) : null;
   }
 }

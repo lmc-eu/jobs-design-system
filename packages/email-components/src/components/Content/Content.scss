@@ -9,8 +9,9 @@
 
 .Content__cell {
     padding: theme.$padding-mobile;
+    text-align: center;
 
     @include breakpoint.up(theme.$breakpoint) {
-        padding: theme.$padding-tablet;
+        padding: theme.$padding-tablet !important;
     }
 }

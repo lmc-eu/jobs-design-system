@@ -10,11 +10,13 @@ registerDependencies({
 
 export default class MjcText extends BodyComponent {
   private readonly color: string;
+  private readonly isUnderline: boolean;
   private readonly size: string;
 
   constructor(initialData = {}) {
     super(initialData);
     this.color = this.getAttribute('color');
+    this.isUnderline = Boolean(this.getAttribute('underline') === 'underline');
     this.size = this.getAttribute('size');
   }
 
@@ -29,24 +31,42 @@ export default class MjcText extends BodyComponent {
     align: 'enum(left,right,center)',
     color: 'enum(primary,secondary,inverted)',
     'data-msys-linkname': 'string',
+    'font-family': 'string',
+    'font-size': 'unit(px)',
     href: 'string',
+    'line-height': 'unit(px,%,)',
     'padding-bottom': 'unit(px,%)',
     'padding-top': 'unit(px,%)',
     padding: 'unit(px,%){1,4}',
     rel: 'string',
-    size: 'enum(small,medium)',
+    size: 'enum(xsmall,small,medium,large)',
+    underline: 'enum(underline,none)',
   };
 
   static defaultAttributes = {
     align: 'left',
     color: 'primary',
+    'font-family': 'Arial, -apple-system, sans-serif',
+    'font-size': '16px',
+    'line-height': '1.5',
     size: 'medium',
+    underline: 'underline',
   };
+
+  getStyles() {
+    return {
+      link: {
+        'font-family': this.getAttribute('font-family'),
+        'font-size': this.getAttribute('font-size'),
+        'line-height': this.getAttribute('line-height'),
+      },
+    };
+  }
 
   headStyle = () => loadComponentStyles(`${__dirname}/Link.css`);
 
   render() {
-    const className = `Link Link--${this.size} Link--${this.color}`;
+    const className = `Link Link--${this.size} Link--${this.color}${!this.isUnderline && ' Link--noUnderline'}`;
 
     return `
       <a
@@ -55,6 +75,7 @@ export default class MjcText extends BodyComponent {
           href: this.getAttribute('href'),
           rel: this.getAttribute('rel'),
           name: this.getAttribute('name'),
+          style: 'link',
           'data-msys-linkname': this.getAttribute('data-msys-linkname'),
         })}
       >

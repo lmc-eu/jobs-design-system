@@ -24,7 +24,7 @@ export default class Content extends BodyComponent {
           <tbody>
             <tr>
               <td class="Content__cell" style="direction:ltr;font-size:0px;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="text-align:center;vertical-align:top;width:680px;" ><![endif]-->
                 ${this.renderChildren(this.props.children, { rawXML: false })}
               <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>

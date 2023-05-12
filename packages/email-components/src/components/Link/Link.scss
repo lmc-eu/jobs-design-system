@@ -6,6 +6,10 @@
     text-decoration: underline;
 }
 
+.Link--noUnderline {
+    text-decoration: none !important;
+}
+
 @include dictionaries.generate-typography-sizes('Link', theme.$sizes);
 
 @include dictionaries.generate-colors('Link', theme.$colors);

@@ -32,6 +32,9 @@ export default class Heading extends BodyComponent {
   static allowedAttributes = {
     align: 'enum(left,right,center)',
     elementType: 'enum(div,h1,h2,h3,h4,p,span)',
+    'font-family': 'string',
+    'font-size': 'unit(px)',
+    'line-height': 'unit(px,%,)',
     size: 'enum(medium,large)',
     title: 'string',
   };
@@ -39,13 +42,26 @@ export default class Heading extends BodyComponent {
   static defaultAttributes = {
     align: 'left',
     elementType: 'div',
+    'font-family': 'Arial, -apple-system, sans-serif',
+    'font-size': '16px',
+    'line-height': '1.5',
     size: 'medium',
   };
+
+  getStyles() {
+    return {
+      heading: {
+        'font-family': this.getAttribute('font-family'),
+        'font-size': this.getAttribute('font-size'),
+        'line-height': this.getAttribute('line-height'),
+      },
+    };
+  }
 
   headStyle = () => loadComponentStyles(`${__dirname}/Heading.css`);
 
   render() {
-    const className = `Heading Heading--${this.size}`;
+    const className = `Heading__text Heading__text--${this.size}`;
 
     return `
       <table
@@ -56,8 +72,13 @@ export default class Heading extends BodyComponent {
       >
         <tbody>
           <tr>
-            <td role="presentation">
-              <${this.elementType} class="${className}">
+            <td role="presentation" class="Heading">
+              <${this.elementType}
+                ${this.htmlAttributes({
+                  class: className,
+                  style: 'heading',
+                })}
+              >
                 ${this.title}
               </${this.elementType}>
             </td>

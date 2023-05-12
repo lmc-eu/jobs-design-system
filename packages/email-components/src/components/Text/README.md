@@ -15,4 +15,4 @@ The `mjc-text` component to render text.
 | `padding-bottom` | `unit(px,%)`                       |           | no       | Bottom spacing   |
 | `padding-top`    | `unit(px,%)`                       |           | no       | Top spacing      |
 | `padding`        | `unit(px,%){1,4}`                  |           | no       | Spacing          |
-| `size`           | `small \| medium`                  | `medium`  | no       | Size of the text |
+| `size`           | `xsmall \| small \| medium`        | `medium`  | no       | Size of the text |

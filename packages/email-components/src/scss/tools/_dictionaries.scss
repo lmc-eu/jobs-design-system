@@ -18,10 +18,10 @@
                     @if map.has-key($dictionary-breakpoints, $breakpoint-name) {
                         $dictionary-variables: map.get($dictionary-breakpoints, $breakpoint-name);
                         @if map.has-key($dictionary-variables, font-size) {
-                            font-size: map.get($dictionary-variables, font-size);
+                            font-size: map.get($dictionary-variables, font-size) !important;
                         }
                         @if map.has-key($dictionary-variables, line-height) {
-                            line-height: map.get($dictionary-variables, line-height);
+                            line-height: map.get($dictionary-variables, line-height) !important;
                         }
                     }
                 }
