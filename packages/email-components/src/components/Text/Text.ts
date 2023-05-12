@@ -46,16 +46,6 @@ export default class MjcText extends BodyComponent {
     'line-height': '1.5',
   };
 
-  getStyles() {
-    return {
-      text: {
-        'font-family': this.getAttribute('font-family'),
-        'font-size': this.getAttribute('font-size'),
-        'line-height': this.getAttribute('line-height'),
-      },
-    };
-  }
-
   headStyle = () => loadComponentStyles(`${__dirname}/Text.css`);
 
   render() {
@@ -65,7 +55,6 @@ export default class MjcText extends BodyComponent {
       <div
         ${this.htmlAttributes({
           class: className,
-          style: 'text',
         })}
       >
         ${this.getContent()}

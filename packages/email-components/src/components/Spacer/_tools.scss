@@ -1,0 +1,21 @@
+@use 'sass:map';
+@use '@tokens' as tokens;
+@use '../../scss/tools/breakpoint' as breakpoint;
+
+@mixin generate-sizes($class-name, $dictionary-values) {
+    @each $dictionary-name, $dictionary-breakpoints in $dictionary-values {
+        .#{$class-name}--#{$dictionary-name} {
+            @each $breakpoint-name, $breakpoint-value in tokens.$breakpoints {
+                @include breakpoint.up($breakpoint-value) {
+                    @if map.has-key($dictionary-breakpoints, $breakpoint-name) {
+                        $dictionary-variables: map.get($dictionary-breakpoints, $breakpoint-name);
+                        @if map.has-key($dictionary-variables, height) {
+                            height: map.get($dictionary-variables, height) !important;
+                            line-height: map.get($dictionary-variables, height) !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@use '@tokens' as tokens;
+
+$breakpoint: tokens.$breakpoint-tablet;
+
+$sizes: (
+    small: (
+        mobile: (
+            height: tokens.$space-500,
+        ),
+    ),
+    medium: (
+        mobile: (
+            height: tokens.$space-600,
+        ),
+        tablet: (
+            height: tokens.$space-700,
+        ),
+    ),
+    large: (
+        mobile: (
+            height: tokens.$space-700,
+        ),
+        tablet: (
+            height: tokens.$space-800,
+        ),
+    ),
+);
