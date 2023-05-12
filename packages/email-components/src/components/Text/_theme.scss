@@ -11,12 +11,17 @@ $colors: (
 );
 
 $sizes: (
+    xsmall: (
+        mobile: (
+            font-size: email-tokens.$text-xsmall-font-size,
+            line-height: email-tokens.$text-xsmall-line-height,
+        ),
+    ),
     small: (
         mobile: (
             font-size: email-tokens.$text-small-font-size,
             line-height: email-tokens.$text-small-line-height,
         ),
-        // Small variant has only one font size.
     ),
     medium: (
         mobile: (

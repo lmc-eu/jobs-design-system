@@ -3,8 +3,16 @@
 @use '../../scss/tools/dictionaries' as dictionaries;
 
 .Heading {
-    margin-bottom: calc(email-tokens.$text-medium-font-size / 2);
-    font-weight: email-tokens.$font-weight-bold;
+    padding-bottom: theme.$padding-bottom-mobile;
+
+    @media (min-width: theme.$breakpoint) {
+        padding-bottom: theme.$padding-bottom-tablet;
+    }
 }
 
-@include dictionaries.generate-typography-sizes('Heading', theme.$sizes);
+.Heading__text {
+    font-weight: email-tokens.$font-weight-bold;
+    color: theme.$color;
+}
+
+@include dictionaries.generate-typography-sizes('Heading__text', theme.$sizes);

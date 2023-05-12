@@ -27,7 +27,7 @@
     "format:check": "prettier --check ./",
     "format:fix": "prettier --write ./",
     "format:fix:changelog": "prettier --write ./CHANGELOG.md",
-    "lint": "stylelint --config ../../.stylelintrc.js ./src/**/*.scss",
+    "lint": "stylelint './src/**/*.scss' --config .stylelintrc.js",
     "register-components": "node registerComponents.js",
     "build:styles": "shx cp -R src/components/ dist/ && shx rm 'dist/**/*.ts' && shx cp -R src/scss/ dist/ && shx rm -rf dist/scss/foundation",
     "build": "shx rm -rf dist && shx mkdir -p dist/scss && shx cp -r package.json README.md dist/ && yarn build:scripts && yarn build:styles",

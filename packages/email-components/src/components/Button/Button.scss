@@ -18,8 +18,7 @@
     cursor: auto;
 
     @media (min-width: theme.$breakpoint) {
-        mso-padding-right-alt: theme.$padding-x-tablet;
-        mso-padding-left-alt: theme.$padding-x-tablet;
+        mso-padding-alt: theme.$padding-y-mobile theme.$padding-x-tablet;
     }
 }
 
@@ -31,7 +30,6 @@
     font-size: theme.$font-size-mobile;
     line-height: theme.$line-height-mobile;
     text-align: center;
-    /* stylelint-disable-next-line declaration-no-important */
     text-decoration: none !important;
     border-width: theme.$border-width;
     border-style: theme.$border-style;
@@ -40,9 +38,10 @@
     cursor: pointer;
 
     @media (min-width: theme.$breakpoint) {
-        padding: theme.$padding-y-mobile theme.$padding-x-tablet;
-        font-size: theme.$font-size-tablet;
-        line-height: theme.$line-height-tablet;
+        display: inline-block !important;
+        padding: theme.$padding-y-mobile theme.$padding-x-tablet !important;
+        font-size: theme.$font-size-tablet !important;
+        line-height: theme.$line-height-tablet !important;
     }
 }
 

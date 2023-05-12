@@ -65,22 +65,23 @@ export default class Button extends BodyComponent {
               ${this.htmlAttributes({
                 align: this.getAttribute('align'),
                 valign: this.getAttribute('vertical-align'),
-                class: classNameTd,
               })}
             >
+            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="${classNameTd}" ><![endif]-->
               <a
-                ${this.htmlAttributes({
-                  class: className,
-                  href: this.getAttribute('href'),
-                  rel: this.getAttribute('rel'),
-                  name: this.getAttribute('name'),
-                  'data-msys-linkname': this.getAttribute('data-msys-linkname'),
-                })}
+              ${this.htmlAttributes({
+                class: className,
+                href: this.getAttribute('href'),
+                rel: this.getAttribute('rel'),
+                name: this.getAttribute('name'),
+                'data-msys-linkname': this.getAttribute('data-msys-linkname'),
+              })}
               >
                 <span class="Button--${this.color}">
                   ${this.getContent()}
                 </span>
               </a>
+            <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>

@@ -11,12 +11,17 @@ $colors: (
 );
 
 $sizes: (
+    xsmall: (
+        mobile: (
+            font-size: email-tokens.$text-xsmall-font-size,
+            line-height: email-tokens.$text-xsmall-line-height,
+        ),
+    ),
     small: (
         mobile: (
             font-size: email-tokens.$text-small-font-size,
             line-height: email-tokens.$text-small-line-height,
         ),
-        // Small variant has only one font size.
     ),
     medium: (
         mobile: (
@@ -26,6 +31,16 @@ $sizes: (
         tablet: (
             font-size: email-tokens.$text-large-font-size,
             line-height: email-tokens.$text-large-line-height,
+        ),
+    ),
+    large: (
+        mobile: (
+            font-size: email-tokens.$text-large-font-size,
+            line-height: email-tokens.$text-small-line-height,
+        ),
+        tablet: (
+            font-size: email-tokens.$text-xlarge-font-size,
+            line-height: email-tokens.$text-small-line-height,
         ),
     ),
 );

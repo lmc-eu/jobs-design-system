@@ -28,17 +28,33 @@ export default class MjcText extends BodyComponent {
   static allowedAttributes = {
     align: 'enum(left,right,center)',
     color: 'enum(primary,secondary,inverted)',
+    'font-family': 'string',
+    'font-size': 'unit(px)',
+    'line-height': 'unit(px,%,)',
     'padding-bottom': 'unit(px,%)',
     'padding-top': 'unit(px,%)',
     padding: 'unit(px,%){1,4}',
-    size: 'enum(small,medium)',
+    size: 'enum(xsmall,small,medium)',
   };
 
   static defaultAttributes = {
     align: 'left',
     color: 'primary',
     size: 'medium',
+    'font-family': 'Arial, -apple-system, sans-serif',
+    'font-size': '16px',
+    'line-height': '1.5',
   };
+
+  getStyles() {
+    return {
+      text: {
+        'font-family': this.getAttribute('font-family'),
+        'font-size': this.getAttribute('font-size'),
+        'line-height': this.getAttribute('line-height'),
+      },
+    };
+  }
 
   headStyle = () => loadComponentStyles(`${__dirname}/Text.css`);
 
@@ -46,7 +62,12 @@ export default class MjcText extends BodyComponent {
     const className = `Text Text--${this.size} Text--${this.color}`;
 
     return `
-      <div class="${className}">
+      <div
+        ${this.htmlAttributes({
+          class: className,
+          style: 'text',
+        })}
+      >
         ${this.getContent()}
       </div>
     `;
