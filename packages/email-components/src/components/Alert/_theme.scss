@@ -1,0 +1,32 @@
+@use 'sass:map';
+@use '@tokens' as tokens;
+@use '../../scss/settings/dictionaries';
+@use '../../scss/@email-tokens' as email-tokens;
+
+$padding: tokens.$space-600;
+$border-radius: tokens.$radius-200;
+
+$font-family: email-tokens.$font-family-base;
+$font-size: email-tokens.$text-medium-font-size;
+$line-height: email-tokens.$heading-large-line-height;
+
+$emphasis-font-weight: email-tokens.$font-weight-bold;
+
+$bg-success: tokens.$emotion-success-background;
+$bg-informative: tokens.$emotion-informative-background;
+$bg-warning: tokens.$emotion-warning-background;
+$bg-danger: tokens.$emotion-danger-background;
+
+$color-success: tokens.$emotion-success-default;
+$color-informative: tokens.$emotion-informative-default;
+$color-warning: tokens.$emotion-warning-default;
+$color-danger: tokens.$emotion-danger-default;
+
+$icon-size: 20px;
+$icon-with-border-size: $icon-size - 2 * tokens.$border-width-200;
+$icon-font-size: email-tokens.$heading-medium-font-size-tablet;
+$icon-with-border-font-weight: email-tokens.$font-weight-bold;
+$icon-with-border-font-size: email-tokens.$text-small-font-size;
+$icon-with-border-line-height: $icon-size - 2 * tokens.$border-width-200;
+$icon-with-border-border: tokens.$border-width-200 tokens.$border-style-100;
+$icon-with-border-radius: tokens.$radius-100;

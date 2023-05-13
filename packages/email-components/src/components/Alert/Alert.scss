@@ -1,0 +1,72 @@
+@use 'theme';
+
+.Alert {
+    display: block;
+    font-size: theme.$font-size;
+    line-height: theme.$line-height;
+    font-family: theme.$font-family;
+}
+
+.Alert--center {
+    text-align: center;
+}
+
+.Alert--right {
+    text-align: right;
+}
+
+.Alert--success {
+    color: theme.$color-success;
+    background-color: theme.$bg-success;
+}
+
+.Alert--informative {
+    color: theme.$color-informative;
+    background-color: theme.$bg-informative;
+}
+
+.Alert--warning {
+    color: theme.$color-warning;
+    background-color: theme.$bg-warning;
+}
+
+.Alert--danger {
+    color: theme.$color-danger;
+    background-color: theme.$bg-danger;
+}
+
+.Alert strong {
+    font-weight: theme.$emphasis-font-weight;
+}
+
+.Alert__table {
+    width: 100%;
+    border-radius: theme.$border-radius;
+}
+
+.Alert__icon {
+    width: theme.$icon-size;
+    padding: theme.$padding;
+    padding-right: 0;
+    font-size: theme.$icon-font-size;
+    line-height: 1;
+    vertical-align: top;
+}
+
+.Alert__iconWithBorder {
+    display: inline-block;
+    box-sizing: content-box;
+    width: theme.$icon-with-border-size;
+    height: theme.$icon-with-border-size;
+    font-weight: theme.$icon-with-border-font-weight;
+    font-size: theme.$icon-with-border-font-size;
+    line-height: theme.$icon-with-border-line-height;
+    text-align: center;
+    vertical-align: middle;
+    border: theme.$icon-with-border-border;
+    border-radius: theme.$icon-with-border-radius;
+}
+
+.Alert__content {
+    padding: theme.$padding;
+}

@@ -1,5 +1,6 @@
 {
   "packages": [
+    "./dist/components/Alert/Alert.js",
     "./dist/components/Button/Button.js",
     "./dist/components/Content/Content.js",
     "./dist/components/Header/Header.js",

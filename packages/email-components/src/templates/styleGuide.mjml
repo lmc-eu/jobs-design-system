@@ -1,19 +1,14 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-all
-        font-family="Arial, -apple-system, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif"
-        font-size="16px"
-        line-height="27px"
-      />
+      <mj-all font-family="Arial, sans-serif" font-size="16px" line-height="27px" />
       <mj-section background-color="transparent" padding="0px" />
       <mj-divider border-width="1px" border-color="#E2E8ED" border-style="solid" />
       <mj-spacer height="32px" />
     </mj-attributes>
     <mjc-head-styles fileUrl="src/scss/foundation/index.scss" inline="inline" />
     <mj-style inline="inline">
-      body { /* provide defaults for image alt and table insides */ font-family: Arial, sans-serif, Apple Color Emoji,
-      Segoe UI Emoji, Segoe UI Symbol, sans-serif; font-size: 16px; }
+      body { /* provide defaults for image alt and table insides */ font-family: Arial, sans-serif; font-size: 16px; }
     </mj-style>
   </mj-head>
   <mj-body css-class="Page" width="680px">
@@ -130,6 +125,27 @@
         <mjc-spacer size="small" />
         <mj-text><strong>Spacer large variant(24/32px):</strong></mj-text>
         <mjc-spacer size="large" />
+      </mj-column>
+    </mjc-content>
+
+    <mjc-content>
+      <mj-column width="100%">
+        <mj-text><strong>COMPONENT: Alert</strong></mj-text>
+        <mj-spacer height="10px" />
+        <mjc-alert>Toto je <strong>Success</strong> alert.</mjc-alert>
+        <mj-spacer height="10px" />
+        <mjc-alert color="informative">Toto je informative alert <strong>s dulezitym sdelenim</strong></mjc-alert>
+        <mj-spacer height="10px" />
+        <mjc-alert color="warning">
+          Toto je warning alert <strong>s dulezitym sdelenim</strong>. A tento text je dlouhy, proto se bude muset
+          zalomit na druhy radek.
+        </mjc-alert>
+        <mj-spacer height="10px" />
+        <mjc-alert color="danger">Toto je <strong>danger</strong> alert</mjc-alert>
+        <mj-spacer height="10px" />
+        <mjc-alert align="center">Toto je alert s <strong>obsahem zarovnaným na střed</strong></mjc-alert>
+        <mj-spacer height="10px" />
+        <mjc-alert align="right">Toto je alert s <strong>obsahme zarovnaým v pravo</strong></mjc-alert>
       </mj-column>
     </mjc-content>
   </mj-body>
