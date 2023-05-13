@@ -1,0 +1,7 @@
+@use 'sass:list';
+@use '@tokens' as tokens;
+
+$size: small, medium, large;
+$size-extended: list.join($size, (xsmall, xlarge));
+$action-link-colors: primary, secondary, inverted;
+$emotion-colors: success, informative, warning, danger;

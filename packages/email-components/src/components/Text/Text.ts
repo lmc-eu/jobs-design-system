@@ -41,7 +41,7 @@ export default class MjcText extends BodyComponent {
     align: 'left',
     color: 'primary',
     size: 'medium',
-    'font-family': 'Arial, -apple-system, sans-serif',
+    'font-family': 'Arial, sans-serif',
     'font-size': '16px',
     'line-height': '1.5',
   };

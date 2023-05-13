@@ -49,6 +49,7 @@
     "@lmc-eu/jobs-design-tokens": "^1.6.0",
     "@lmc-eu/prettier-config": "^1.2.4",
     "@lmc-eu/spirit-design-tokens": "^0.25.2",
+    "@lmc-eu/spirit-web": "^0.45.0",
     "@lmc-eu/stylelint-config": "^5.0.0",
     "@types/jest": "^27.0.3",
     "babel-loader": "^9.1.2",

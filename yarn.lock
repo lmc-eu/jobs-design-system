@@ -1535,6 +1535,11 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
+"@csstools/normalize.css@^12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-12.0.0.tgz#a9583a75c3f150667771f30b60d9f059473e62c4"
+  integrity sha512-M0qqxAcwCsIVfpFQSlGN5XjXWu8l5JDZN+fPt1LeW5SZexQTgnaEvgXAY+CeygRw0EeppWHi12JxESWiWrB0Sg==
+
 "@csstools/selector-specificity@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
@@ -2495,10 +2500,24 @@
   resolved "https://registry.yarnpkg.com/@lmc-eu/prettier-config/-/prettier-config-1.2.4.tgz#b6f80e55c9cc8ebb56e19abbd222c595655ed6a5"
   integrity sha512-mkIpOoA2GgkESZve2gazQCeyz6WOwe26Lll3yPDkwrx2AbA7bf2Z9ObLrQ0fhFmJJ5+fPs6gbyGZL8IM9GHMiA==
 
-"@lmc-eu/spirit-design-tokens@^0.25.2":
+"@lmc-eu/spirit-design-tokens@^0.25.2", "@lmc-eu/spirit-design-tokens@^0.25.3":
   version "0.25.3"
   resolved "https://registry.yarnpkg.com/@lmc-eu/spirit-design-tokens/-/spirit-design-tokens-0.25.3.tgz#d1ba1b279d8f4f4cc27341a32253fe7b7255d042"
   integrity sha512-A/lt2m+Bnr2Hd83yYuQ3vnqV706lSYsVWfrAQnpHp0yfDPjX5tk+X43yzPjLaa+Slj6avCofywyqu/rpGxXvnw==
+
+"@lmc-eu/spirit-icons@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@lmc-eu/spirit-icons/-/spirit-icons-0.10.0.tgz#161d9900b31149c0f043fa829590b88b393e2ef6"
+  integrity sha512-1/6xYOwmND5PgXTmUww5o8FkilXdLg/J1pH8XIAB0QVWOsWLKp/i4vbY6osggIvJJWK9YwnFQsmCpIPUPAcw1g==
+
+"@lmc-eu/spirit-web@^0.45.0":
+  version "0.45.0"
+  resolved "https://registry.yarnpkg.com/@lmc-eu/spirit-web/-/spirit-web-0.45.0.tgz#1427fa628ba47d860fdea7d75da4c509892405fd"
+  integrity sha512-avrfK4iPxzh0kqEvOYuG9K3njLPS/F2lTDR0+ABnPRxBcXbiIKg7axfCxgVQw+sUluxeyIOEmSJZjxO3LZk7qA==
+  dependencies:
+    "@csstools/normalize.css" "^12.0.0"
+    "@lmc-eu/spirit-design-tokens" "^0.25.3"
+    "@lmc-eu/spirit-icons" "^0.10.0"
 
 "@lmc-eu/stylelint-config@5.0.0", "@lmc-eu/stylelint-config@^5.0.0":
   version "5.0.0"
