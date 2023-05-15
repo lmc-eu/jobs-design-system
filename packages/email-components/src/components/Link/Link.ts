@@ -66,7 +66,7 @@ export default class MjcText extends BodyComponent {
   headStyle = () => loadComponentStyles(`${__dirname}/Link.css`);
 
   render() {
-    const className = `Link Link--${this.size} Link--${this.color}${!this.isUnderline && ' Link--noUnderline'}`;
+    const className = `Link Link--${this.size} Link--${this.color}${!this.isUnderline ? ' Link--noUnderline' : ''}`;
 
     return `
       <a
