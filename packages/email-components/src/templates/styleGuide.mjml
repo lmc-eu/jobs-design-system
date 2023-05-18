@@ -31,6 +31,15 @@
 
     <mjc-content>
       <mj-column width="100%">
+        <mj-text><strong>COMPONENT: Button</strong></mj-text>
+        <mj-spacer height="10px" />
+        <mjc-button href="https://jobs.cz" padding-top="0">Primary button</mjc-button>
+        <mjc-button href="https://jobs.cz" color="secondary" padding-top="0">Secondary button</mjc-button>
+      </mj-column>
+    </mjc-content>
+
+    <mjc-content>
+      <mj-column width="100%">
         <mj-spacer height="80px" />
         <mj-text><strong>COMPONENT: Heading</strong></mj-text>
         <mj-spacer height="10px" />
@@ -89,10 +98,27 @@
 
     <mjc-content>
       <mj-column width="100%">
-        <mj-text><strong>COMPONENT: Button</strong></mj-text>
+        <mj-text><strong>COMPONENT: Tag</strong></mj-text>
         <mj-spacer height="10px" />
-        <mjc-button href="https:/jobs.cz" padding-top="0">Primary button</mjc-button>
-        <mjc-button href="https:/jobs.cz" color="secondary" padding-top="0">Secondary button</mjc-button>
+        <mjc-tag text="Neutral tag" />
+        <mjc-tag color="success" text="Success tag" />
+        <mjc-tag color="informative" text="Informative tag" />
+      </mj-column>
+    </mjc-content>
+
+    <mjc-content>
+      <mj-column width="100%">
+        <mj-text><strong>COMPONENT: Row</strong></mj-text>
+        <mj-text
+          >This component makes more components on one line. It used to for example for Buttons, Links and
+          Tags.</mj-text
+        >
+        <mj-spacer height="10px" />
+        <mjc-row>
+          <mjc-tag text="Neutral tag" />
+          <mjc-tag color="success" text="Success tag" />
+          <mjc-tag color="informative" text="Informative tag" />
+        </mjc-row>
       </mj-column>
     </mjc-content>
   </mj-body>

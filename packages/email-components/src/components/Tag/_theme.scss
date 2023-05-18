@@ -1,0 +1,32 @@
+@use 'sass:map';
+@use '@tokens' as tokens;
+@use '../../scss/@email-tokens' as email-tokens;
+
+$breakpoint: tokens.$breakpoint-tablet;
+
+$padding: tokens.$space-200 tokens.$space-400;
+$margin: tokens.$space-400;
+
+$subtle-colors: (
+    neutral: (
+        color: tokens.$text-secondary-default,
+        background: tokens.$background-cover,
+    ),
+    success: (
+        color: tokens.$emotion-success-default,
+        background: tokens.$emotion-success-background,
+    ),
+    informative: (
+        color: tokens.$emotion-informative-default,
+        background: tokens.$emotion-informative-background,
+    ),
+    warning: (
+        color: tokens.$emotion-warning-default,
+        background: tokens.$emotion-warning-background,
+    ),
+);
+
+$font-size: email-tokens.$text-small-font-size;
+$line-height: email-tokens.$text-small-line-height;
+
+$border-radius: tokens.$radius-100;

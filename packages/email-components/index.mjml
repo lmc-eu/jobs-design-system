@@ -30,7 +30,7 @@
         </mjc-text>
 
         <mjc-link href="https://jobs.cz" color="secondary">Link</mjc-link>
-        <mjc-button href="https:/jobs.cz">Button to Jobs.cz</mjc-button>
+        <mjc-button href="https://jobs.cz">Button to Jobs.cz</mjc-button>
       </mj-column>
     </mjc-content>
   </mj-body>

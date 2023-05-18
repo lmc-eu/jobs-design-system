@@ -1,0 +1,9 @@
+@mixin generate-colors($class-name, $dictionary-values) {
+    @each $dictionary-name, $dictionary-value in $dictionary-values {
+        .#{$class-name}--#{$dictionary-name} {
+            @each $property-name, $property-value in $dictionary-value {
+                #{$property-name}: #{$property-value};
+            }
+        }
+    }
+}
