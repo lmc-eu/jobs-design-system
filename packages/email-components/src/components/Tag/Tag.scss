@@ -1,0 +1,16 @@
+@use 'sass:map';
+@use 'theme';
+@use 'tool';
+
+.Tag {
+    display: inline-block;
+    padding: theme.$padding;
+    margin-right: theme.$margin;
+    margin-bottom: theme.$margin;
+    font-size: theme.$font-size;
+    line-height: theme.$line-height;
+    text-align: center;
+    border-radius: theme.$border-radius;
+}
+
+@include tool.generate-colors('Tag', theme.$subtle-colors);

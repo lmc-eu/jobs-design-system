@@ -5,6 +5,8 @@
     "./dist/components/Header/Header.js",
     "./dist/components/Heading/Heading.js",
     "./dist/components/Link/Link.js",
+    "./dist/components/Row/Row.js",
+    "./dist/components/Tag/Tag.js",
     "./dist/components/Text/Text.js",
     "./dist/headComponents/Scss/Scss.js"
   ]
