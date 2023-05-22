@@ -29,6 +29,8 @@
 
     <mj-include path="../components/Link/Link.stories.mjml" />
 
+    <mj-include path="../components/ResultCard/ResultCard.stories.mjml" />
+
     <mj-include path="../components/Spacer/Spacer.stories.mjml" />
 
     <mj-include path="../components/Tag/Tag.stories.mjml" />
