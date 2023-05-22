@@ -5,7 +5,7 @@ export default class MjcRow extends BodyComponent {
   static endingRow = false;
   static dependencies = {
     'mj-column': ['mjc-row'],
-    'mjc-row': ['mjc-button', 'mjc-link', 'mjc-tag'],
+    'mjc-row': ['mjc-button', 'mj-divider', 'mjc-link', 'mjc-row', 'mj-spacer', 'mjc-tag', 'mjc-text'],
   };
 
   render() {

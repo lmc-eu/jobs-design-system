@@ -36,7 +36,7 @@
     "dev": "yarn css:watch & tsc --watch",
     "build:template": "mjml index.mjml -o index.html && mjml ./src/templates/**.mjml -o ./html-output/",
     "dev-template": "mjml --watch ./src/templates/**.mjml -o ./html-output/",
-    "dev-inline-templates": "mjml ./src/templates/**.mjml -o ./html-output/ --config.juiceOptions='{\"preserveImportant\": true, \"applyStyleTags\": true}'"
+    "dev-inline-templates": "mjml ./src/templates/**.mjml -o ./html-output/ --config.juiceOptions='{\"preserveImportant\": false, \"applyStyleTags\": true}'"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",

@@ -1,0 +1,33 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Result Card</strong> - mjc-result-card</mj-text>
+    <mj-include path="./stories/ResultCardProps.mjml" />
+    <mj-spacer height="10px" />
+
+    <mjc-result-card
+      badge="Odpověď do 2 týdnů"
+      employer="UniCredit Bank Czech Republic and Slovakia"
+      link="https://jobs.cz"
+      location="Brno"
+      salary="30 000 - 50 000 Kč"
+      title="Obchodní zástupce výdejních míst - Moravskoslezský kraj"
+    />
+    <mjc-result-card
+      employer="UniCredit Bank Czech Republic and Slovakia"
+      link="https://jobs.cz"
+      location="Olomouc"
+      salary="40 000 - 50 000 Kč"
+      subtitle="Doporučujeme"
+      title="Obchodní zástupce výdejních míst - Olomoucký kraj"
+    />
+    <mjc-result-card
+      badge="Odpověď do 2 týdnů"
+      employer="UniCredit Bank Czech Republic and Slovakia"
+      link="https://jobs.cz"
+      subtitle="Doporučujeme"
+      title="Obchodní zástupce výdejních míst - Praha"
+      bottomSeparator="true"
+    />
+  </mj-column>
+</mjc-content>

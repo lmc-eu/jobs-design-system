@@ -1,0 +1,70 @@
+<mj-table padding="0" font-size="13px" css-class="readme-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>badge</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Your badge text</td>
+    </tr>
+    <tr>
+      <td>bottomSeparator</td>
+      <td><code>true | false</code></td>
+      <td><code>false</code></td>
+      <td>no</td>
+      <td>Show bottom separator</td>
+    </tr>
+    <tr>
+      <td>employer</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>yes</td>
+      <td>Employer name</td>
+    </tr>
+    <tr>
+      <td>link</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>yes</td>
+      <td>Link to URL</td>
+    </tr>
+    <tr>
+      <td>location</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Location</td>
+    </tr>
+    <tr>
+      <td>salary</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Salary badge</td>
+    </tr>
+    <tr>
+      <td>subtitle</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Subtitle text</td>
+    </tr>
+    <tr>
+      <td>title</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>yes</td>
+      <td>Card title</td>
+    </tr>
+  </tbody>
+</mj-table>
+<mjc-spacer />

@@ -1,0 +1,25 @@
+@use '@tokens' as tokens;
+
+.ResultCard__separator {
+    display: none !important;
+
+    @media (min-width: tokens.$breakpoint-tablet) {
+        display: inline-block !important;
+        margin: 0 tokens.$space-400 0 tokens.$space-300;
+    }
+}
+
+.ResultCard__badgeNewLine {
+    @media (min-width: tokens.$breakpoint-tablet) {
+        display: none !important;
+    }
+}
+
+.ResultCard__secondBadge {
+    display: inline-block;
+    padding-top: tokens.$space-400;
+
+    @media (min-width: tokens.$breakpoint-tablet) {
+        padding-top: 0 !important;
+    }
+}
