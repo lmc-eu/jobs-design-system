@@ -1,0 +1,10 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Heading</strong> - mjc-heading</mj-text>
+    <mj-include path="./stories/HeadingProps.mjml" />
+
+    <mjc-heading title="Heading medium"></mjc-heading>
+    <mjc-heading title="Heading large" size="large"></mjc-heading>
+  </mj-column>
+</mjc-content>

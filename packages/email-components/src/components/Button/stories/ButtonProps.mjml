@@ -1,0 +1,63 @@
+<mj-table padding="0" font-size="13px" css-class="readme-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>align</code></td>
+      <td><code>left | right | center</code></td>
+      <td><code>left</code></td>
+      <td>no</td>
+      <td>Button position</td>
+    </tr>
+    <tr>
+      <td><code>color</code></td>
+      <td><code>primary | secondary</code></td>
+      <td><code>primary</code></td>
+      <td>yes</td>
+      <td>Button color</td>
+    </tr>
+    <tr>
+      <td><code>href</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>no</td>
+      <td>Link to URL</td>
+    </tr>
+    <tr>
+      <td><code>padding-bottom</code></td>
+      <td><code>unit(px,%)</code></td>
+      <td><code>32px</code></td>
+      <td>no</td>
+      <td>Bottom spacing</td>
+    </tr>
+    <tr>
+      <td><code>padding-top</code></td>
+      <td><code>unit(px,%)</code></td>
+      <td><code>32px</code></td>
+      <td>no</td>
+      <td>Top spacing</td>
+    </tr>
+    <tr>
+      <td><code>rel</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>vertical-align</code></td>
+      <td><code>top | bottom | middle</code></td>
+      <td><code>middle</code></td>
+      <td>no</td>
+      <td>Bottom position</td>
+    </tr>
+  </tbody>
+</mj-table>
+<mjc-spacer />

@@ -1,0 +1,12 @@
+<mjc-content>
+  <mj-column>
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Header</strong> - mjc-header</mj-text>
+    <mj-include path="./stories/HeaderProps.mjml" />
+  </mj-column>
+</mjc-content>
+<mjc-header
+  imageUrl="https://ijobs.cz/static/images/email/logo-jobs.png?1"
+  imageAlt="jobs.cz logo"
+  externalLink="https://jobs.cz"
+/>

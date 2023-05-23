@@ -1,0 +1,56 @@
+<mj-table padding="0" font-size="13px" css-class="readme-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>align</code></td>
+      <td><code>left | center | right</code></td>
+      <td><code>left</code></td>
+      <td>no</td>
+      <td>Text alignment</td>
+    </tr>
+    <tr>
+      <td><code>color</code></td>
+      <td><code>primary | secondary | inverted</code></td>
+      <td><code>primary</code></td>
+      <td>no</td>
+      <td>Text color</td>
+    </tr>
+    <tr>
+      <td><code>padding-bottom</code></td>
+      <td><code>unit(px,%)</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Bottom spacing</td>
+    </tr>
+    <tr>
+      <td><code>padding-top</code></td>
+      <td><code>unit(px,%)</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Top spacing</td>
+    </tr>
+    <tr>
+      <td><code>padding</code></td>
+      <td><code>unit(px,%){1,4}</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Spacing</td>
+    </tr>
+    <tr>
+      <td><code>size</code></td>
+      <td><code>xsmall | small | medium</code></td>
+      <td><code>medium</code></td>
+      <td>no</td>
+      <td>Size of the text</td>
+    </tr>
+  </tbody>
+</mj-table>
+<mjc-spacer />

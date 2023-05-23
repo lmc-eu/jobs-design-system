@@ -3,8 +3,9 @@
     <mj-attributes>
       <mj-all font-family="Arial, sans-serif" font-size="16px" line-height="27px" />
       <mj-section background-color="transparent" padding="0px" />
-      <mj-divider border-width="1px" border-color="#E2E8ED" border-style="solid" />
+      <mj-divider border-width="1px" border-color="#E2E8ED" border-style="solid" padding="0" />
       <mj-spacer height="32px" />
+      <mj-title>Přehled e-mailových komponent</mj-title>
     </mj-attributes>
     <mjc-head-styles fileUrl="src/scss/foundation/index.scss" inline="inline" />
     <mj-style inline="inline">
@@ -14,92 +15,25 @@
   <mj-body css-class="Page" width="680px">
     <mjc-content>
       <mj-column>
-        <mj-spacer height="40px" />
-        <mj-text><strong>COMPONENT: Header</strong></mj-text>
-      </mj-column>
-    </mjc-content>
-    <mjc-header
-      imageUrl="https://ijobs.cz/static/images/email/logo-jobs.png?1"
-      imageAlt="jobs.cz logo"
-      externalLink="https://jobs.cz"
-    />
-
-    <mjc-content>
-      <mj-column width="100%">
-        <mj-text><strong>COMPONENT: Button</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-button href="https://jobs.cz" padding-top="0">Primary button</mjc-button>
-        <mjc-button href="https://jobs.cz" color="secondary" padding-top="0">Secondary button</mjc-button>
+        <mjc-heading size="large" align="center" title="Přehled e-mailových komponent" />
       </mj-column>
     </mjc-content>
 
-    <mjc-content>
-      <mj-column width="100%">
-        <mj-spacer height="80px" />
-        <mj-text><strong>COMPONENT: Heading</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-heading title="Heading medium"></mjc-heading>
-        <mjc-heading title="Heading large" size="large"></mjc-heading>
-      </mj-column>
-    </mjc-content>
+    <mj-include path="../components/Alert/Alert.stories.mjml" />
 
-    <mjc-content>
-      <mj-column width="100%">
-        <mj-text><strong>COMPONENT: Text - mjc-text</strong></mj-text>
-        <mj-text>This component cca content only text or html element like strong or a.</mj-text>
-      </mj-column>
-      <mj-column width="45%">
-        <mj-text><strong>Size variants:</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-text>Medium text - default</mjc-text>
-        <mjc-text size="small">Small text</mjc-text>
-        <mjc-text size="xsmall">Xsmall text</mjc-text>
-      </mj-column>
-      <mj-column width="45%">
-        <mj-text><strong>Color variants:</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-text color="primary">Color primary - default</mjc-text>
-        <mjc-text color="secondary">Color secondary</mjc-text>
-        <mjc-text>Color inverted - color is white</mjc-text>
-      </mj-column>
-    </mjc-content>
+    <mj-include path="../components/Button/Button.stories.mjml" />
 
-    <mjc-content>
-      <mj-column width="100%">
-        <mj-text><strong>COMPONENT: Link - mjc-link</strong></mj-text>
-        <mj-spacer height="10px" />
-      </mj-column>
-      <mj-column width="45%">
-        <mj-text><strong>Size variants:</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-link size="large">Large link</mjc-link>
-        <mjc-link>Medium link - default</mjc-link>
-        <mjc-link size="small">Small link</mjc-link>
-        <mjc-link size="xsmall">Xsmall link</mjc-link>
+    <mj-include path="../components/Header/Header.stories.mjml" />
 
-        <mj-spacer height="40px" />
-        <mj-text><strong>Underline variants:</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-link underline="none">Link no underline</mjc-link>
-      </mj-column>
-      <mj-column width="45%">
-        <mj-text><strong>Color variants:</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-link color="primary">Color primary - default</mjc-link>
-        <mjc-link color="secondary">Color secondary</mjc-link>
-        <mjc-link>Color inverted - color is white</mjc-link>
-      </mj-column>
-    </mjc-content>
+    <mj-include path="../components/Heading/Heading.stories.mjml" />
 
-    <mjc-content>
-      <mj-column width="100%">
-        <mj-text><strong>COMPONENT: Tag</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-tag text="Neutral tag" />
-        <mjc-tag color="success" text="Success tag" />
-        <mjc-tag color="informative" text="Informative tag" />
-      </mj-column>
-    </mjc-content>
+    <mj-include path="../components/Link/Link.stories.mjml" />
+
+    <mj-include path="../components/Spacer/Spacer.stories.mjml" />
+
+    <mj-include path="../components/Tag/Tag.stories.mjml" />
+
+    <mj-include path="../components/Text/Text.stories.mjml" />
 
     <mjc-content>
       <mj-column width="100%">
@@ -114,38 +48,6 @@
           <mjc-tag color="success" text="Success tag" />
           <mjc-tag color="informative" text="Informative tag" />
         </mjc-row>
-      </mj-column>
-    </mjc-content>
-
-    <mjc-content>
-      <mj-column width="100%">
-        <mj-text><strong>COMPONENT: Spacer - default medium (16/24 px):</strong></mj-text>
-        <mjc-spacer size="medium" />
-        <mj-text><strong>Spacer small variant(12px):</strong></mj-text>
-        <mjc-spacer size="small" />
-        <mj-text><strong>Spacer large variant(24/32px):</strong></mj-text>
-        <mjc-spacer size="large" />
-      </mj-column>
-    </mjc-content>
-
-    <mjc-content>
-      <mj-column width="100%">
-        <mj-text><strong>COMPONENT: Alert</strong></mj-text>
-        <mj-spacer height="10px" />
-        <mjc-alert>Toto je <strong>Success</strong> alert.</mjc-alert>
-        <mj-spacer height="10px" />
-        <mjc-alert color="informative">Toto je informative alert <strong>s dulezitym sdelenim</strong></mjc-alert>
-        <mj-spacer height="10px" />
-        <mjc-alert color="warning">
-          Toto je warning alert <strong>s dulezitym sdelenim</strong>. A tento text je dlouhy, proto se bude muset
-          zalomit na druhy radek.
-        </mjc-alert>
-        <mj-spacer height="10px" />
-        <mjc-alert color="danger">Toto je <strong>danger</strong> alert</mjc-alert>
-        <mj-spacer height="10px" />
-        <mjc-alert align="center">Toto je alert s <strong>obsahem zarovnaným na střed</strong></mjc-alert>
-        <mj-spacer height="10px" />
-        <mjc-alert align="right">Toto je alert s <strong>obsahme zarovnaým v pravo</strong></mjc-alert>
       </mj-column>
     </mjc-content>
   </mj-body>

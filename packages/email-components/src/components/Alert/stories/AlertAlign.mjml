@@ -1,0 +1,3 @@
+<mjc-alert align="center">Toto je alert s <strong>obsahem zarovnaným na střed</strong></mjc-alert>
+<mj-spacer height="10px" />
+<mjc-alert align="right">Toto je alert s <strong>obsahme zarovnaým v pravo</strong></mjc-alert>

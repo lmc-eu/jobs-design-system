@@ -32,7 +32,7 @@ export default class Spacer extends BodyComponent {
 
     return `
       <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="${className}" ><![endif]-->
-        <div class="${className}" />
+        <div class="${className}"></div>
       <!--[if mso | IE]></td></tr></table><![endif]-->
     `;
   }

@@ -1,0 +1,13 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Spacer</strong> - mjc-spacer</mj-text>
+    <mj-include path="./stories/SpacerProps.mjml" />
+    <mj-text><strong>Spacer default medium variant (16/24 px):</strong></mj-text>
+    <mjc-spacer size="medium" />
+    <mj-text><strong>Spacer small variant(12px):</strong></mj-text>
+    <mjc-spacer size="small" />
+    <mj-text><strong>Spacer large variant(24/32px):</strong></mj-text>
+    <mjc-spacer size="large" />
+  </mj-column>
+</mjc-content>

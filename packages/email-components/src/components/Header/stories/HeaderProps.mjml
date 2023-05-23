@@ -1,0 +1,56 @@
+<mj-table padding="0" font-size="13px" css-class="readme-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>align</code></td>
+      <td><code>left | center | right</code></td>
+      <td><code>center</code></td>
+      <td>no</td>
+      <td>Image alignment</td>
+    </tr>
+    <tr>
+      <td><code>height</code></td>
+      <td><code>unit(px,%)</code></td>
+      <td><code>24px</code></td>
+      <td>no</td>
+      <td>Image height</td>
+    </tr>
+    <tr>
+      <td><code>externalLink</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>no</td>
+      <td>External link to some web page</td>
+    </tr>
+    <tr>
+      <td><code>imageAlt</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>no</td>
+      <td>Image alt description</td>
+    </tr>
+    <tr>
+      <td><code>imageUrl</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>yes</td>
+      <td>URL to image</td>
+    </tr>
+    <tr>
+      <td><code>width</code></td>
+      <td><code>unit(px,%)</code></td>
+      <td><code>60px</code></td>
+      <td>no</td>
+      <td>Image width</td>
+    </tr>
+  </tbody>
+</mj-table>
+<mjc-spacer />
