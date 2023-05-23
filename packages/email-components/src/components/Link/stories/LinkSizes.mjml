@@ -1,0 +1,4 @@
+<mjc-link size="large">Large link</mjc-link>
+<mjc-link>Medium link - default</mjc-link>
+<mjc-link size="small">Small link</mjc-link>
+<mjc-link size="xsmall">Xsmall link</mjc-link>

@@ -1,0 +1,11 @@
+<mjc-alert>Toto je <strong>Success</strong> alert.</mjc-alert>
+<mj-spacer height="10px" />
+<mjc-alert color="informative">Toto je informative alert <strong>s dulezitym sdelenim</strong></mjc-alert>
+<mj-spacer height="10px" />
+<mjc-alert color="warning">
+  Toto je warning alert <strong>s dulezitym sdelenim</strong>. A tento text je dlouhy, proto se bude muset zalomit na
+  druhy radek.
+</mjc-alert>
+<mj-spacer height="10px" />
+<mjc-alert color="danger">Toto je <strong>danger</strong> alert</mjc-alert>
+<mj-spacer height="10px" />

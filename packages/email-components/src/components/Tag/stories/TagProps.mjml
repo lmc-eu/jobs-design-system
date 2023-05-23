@@ -1,0 +1,28 @@
+<mj-table padding="0" font-size="13px" css-class="readme-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>color</code></td>
+      <td><code>neutral | success | informative</code></td>
+      <td><code>neutral</code></td>
+      <td>no</td>
+      <td>Tag variant color</td>
+    </tr>
+    <tr>
+      <td><code>text</code></td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>yes</td>
+      <td>Tag content</td>
+    </tr>
+  </tbody>
+</mj-table>
+<mjc-spacer />

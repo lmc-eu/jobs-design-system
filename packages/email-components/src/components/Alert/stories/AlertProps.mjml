@@ -1,0 +1,37 @@
+<mj-table padding="0" font-size="13px" css-class="readme-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>align</code></td>
+      <td><code>left | center | right</code></td>
+      <td><code>left</code></td>
+      <td>Content align</td>
+    </tr>
+    <tr>
+      <td><code>color</code></td>
+      <td><code>success | informative | warning | danger</code></td>
+      <td><code>success</code></td>
+      <td>Color</td>
+    </tr>
+    <tr>
+      <td><code>element type</code></td>
+      <td><code>HTMLElement - div | a</code></td>
+      <td><code>div</code></td>
+      <td>HTML tag</td>
+    </tr>
+    <tr>
+      <td><code>href</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>Link to url</td>
+    </tr>
+  </tbody>
+</mj-table>
+<mjc-spacer />

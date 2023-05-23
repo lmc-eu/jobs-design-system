@@ -1,0 +1,10 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Tag</strong> - mjc-tag</mj-text>
+    <mj-include path="./stories/TagProps.mjml" />
+    <mjc-tag text="Neutral tag" />
+    <mjc-tag color="success" text="Success tag" />
+    <mjc-tag color="informative" text="Informative tag" />
+  </mj-column>
+</mjc-content>

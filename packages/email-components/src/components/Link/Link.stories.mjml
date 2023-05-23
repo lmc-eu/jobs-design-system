@@ -1,0 +1,21 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Link</strong> - mjc-link</mj-text>
+    <mj-include path="./stories/LinkProps.mjml" />
+  </mj-column>
+
+  <mj-column width="45%">
+    <mj-text><strong>Size variants:</strong></mj-text>
+    <mj-include path="./stories/LinkSizes.mjml" />
+
+    <mjc-spacer size="large" />
+    <mj-text><strong>Underline variants:</strong></mj-text>
+    <mjc-link underline="none">Link no underline</mjc-link>
+  </mj-column>
+
+  <mj-column width="45%">
+    <mj-text><strong>Color variants:</strong></mj-text>
+    <mj-include path="./stories/LinkColors.mjml" />
+  </mj-column>
+</mjc-content>

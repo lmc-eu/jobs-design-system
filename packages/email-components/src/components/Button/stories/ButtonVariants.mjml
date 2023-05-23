@@ -1,0 +1,2 @@
+<mjc-button href="https://jobs.cz" padding-top="0">Primary button</mjc-button>
+<mjc-button href="https://jobs.cz" color="secondary" padding-top="0">Secondary button</mjc-button>

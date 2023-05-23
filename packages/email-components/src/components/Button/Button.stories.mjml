@@ -1,0 +1,8 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Button</strong> - mjc-button</mj-text>
+    <mj-include path="./stories/ButtonProps.mjml" />
+    <mj-include path="./stories/ButtonVariants.mjml" />
+  </mj-column>
+</mjc-content>

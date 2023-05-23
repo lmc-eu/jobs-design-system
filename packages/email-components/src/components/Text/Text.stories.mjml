@@ -1,0 +1,18 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Text</strong> - mjc-text</mj-text>
+    <mj-text>This component can content only text or html element like strong or a.</mj-text>
+    <mj-include path="./stories/TextProps.mjml" />
+  </mj-column>
+  <mj-column width="45%">
+    <mj-text><strong>Size variants:</strong></mj-text>
+    <mjc-spacer size="small" />
+    <mj-include path="./stories/TextSizes.mjml" />
+  </mj-column>
+  <mj-column width="45%">
+    <mj-text><strong>Color variants:</strong></mj-text>
+    <mjc-spacer size="small" />
+    <mj-include path="./stories/TextColors.mjml" />
+  </mj-column>
+</mjc-content>

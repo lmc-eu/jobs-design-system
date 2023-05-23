@@ -1,0 +1,37 @@
+<mj-table padding="0" font-size="13px" css-class="readme-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>align</code></td>
+      <td><code>left | right | center</code></td>
+      <td><code>left</code></td>
+      <td>Text position</td>
+    </tr>
+    <tr>
+      <td><code>elementType</code></td>
+      <td><code>HTMLElement</code></td>
+      <td><code>div</code></td>
+      <td>HTML tag</td>
+    </tr>
+    <tr>
+      <td><code>size</code></td>
+      <td><code>medium | large</code></td>
+      <td><code>medium</code></td>
+      <td>Size of the text</td>
+    </tr>
+    <tr>
+      <td><code>title</code></td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>Title</td>
+    </tr>
+  </tbody>
+</mj-table>
+<mjc-spacer />

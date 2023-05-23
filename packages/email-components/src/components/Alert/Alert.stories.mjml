@@ -1,0 +1,9 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Alert</strong> - mjc-alert</mj-text>
+    <mj-include path="./stories/AlertProps.mjml" />
+    <mj-include path="./stories/AlertColors.mjml" />
+    <mj-include path="./stories/AlertAlign.mjml" />
+  </mj-column>
+</mjc-content>

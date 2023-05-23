@@ -1,0 +1,3 @@
+<mjc-text color="primary">Color primary - default</mjc-text>
+<mjc-text color="secondary">Color secondary</mjc-text>
+<mjc-text>Color inverted - color is white</mjc-text>
