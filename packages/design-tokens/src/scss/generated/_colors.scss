@@ -14,9 +14,9 @@ $action-link-primary-disabled: #818ea2 !default;
 $action-link-primary-hover: #0256a3 !default;
 $action-link-primary-visited: #a70055 !default;
 $action-link-secondary-active: #000 !default;
-$action-link-secondary-default: #292929 !default;
+$action-link-secondary-default: #1d2127 !default;
 $action-link-secondary-disabled: #818ea2 !default;
-$action-link-secondary-hover: #0f0f0f !default;
+$action-link-secondary-hover: #111417 !default;
 $action-link-secondary-visited: #4a737e !default;
 $action-primary-active: #d46306 !default;
 $action-primary-default: #f48225 !default;
@@ -48,7 +48,7 @@ $background-interactive-inverted-active: #1717174d !default;
 $background-interactive-inverted-default: #17171700 !default;
 $background-interactive-inverted-hover: #17171733 !default;
 $background-inverted: #171717 !default;
-$border-primary-active: #99a8b6 !default;
+$border-primary-active: #8294a5 !default;
 $border-primary-default: #b0c0cf !default;
 $border-primary-disabled: #f0f0f0 !default;
 $border-primary-hover: #99a8b6 !default;
@@ -56,31 +56,31 @@ $border-primary-selected: #3478dd !default;
 $border-secondary-default: #e2e8ed !default;
 $brand-primary: #19325a !default;
 $brand-secondary: #f90 !default;
-$emotion-danger-active: #750000 !default;
+$emotion-danger-active: #820000 !default;
 $emotion-danger-background: #fde8e9 !default;
 $emotion-danger-default: #c81e1e !default;
 $emotion-danger-disabled: #f3f3f3 !default;
 $emotion-danger-hover: #a80000 !default;
-$emotion-informative-active: #2267cd !default;
+$emotion-informative-active: #064884 !default;
 $emotion-informative-background: #ddeafe !default;
 $emotion-informative-default: #0967be !default;
 $emotion-informative-disabled: #f3f3f3 !default;
-$emotion-informative-hover: #0967be !default;
+$emotion-informative-hover: #0a559a !default;
 $emotion-success-active: #0f5a3f !default;
 $emotion-success-background: #def7ed !default;
 $emotion-success-default: #047c4e !default;
 $emotion-success-disabled: #f3f3f3 !default;
 $emotion-success-hover: #13714f !default;
-$emotion-warning-active: #b65302 !default;
-$emotion-warning-background: #fff6ea !default;
-$emotion-warning-default: #ed720c !default;
+$emotion-warning-active: #ab810e !default;
+$emotion-warning-background: #fef9ec !default;
+$emotion-warning-default: #d19d10 !default;
 $emotion-warning-disabled: #f3f3f3 !default;
-$emotion-warning-hover: #d46306 !default;
+$emotion-warning-hover: #be8f0e !default;
 $focus-default: #61b3ff !default;
-$gradients-gradient-darkside: #073256 !default;
-$gradients-gradient-lightside: #185c95 !default;
-$gradients-gradient-mid: #0c4471 !default;
-$text-primary-default: #1d2127 !default;
+$gradient-darkside: #073256 !default;
+$gradient-lightside: #185c95 !default;
+$gradient-mid: #0c4471 !default;
+$text-primary-default: #101c2d !default;
 $text-primary-disabled: #818ea2 !default;
 $text-primary-inverted-default: #fff !default;
 $text-primary-inverted-disabled: #8d9c9f !default;
@@ -185,10 +185,10 @@ $focus-colors: (
     default: $focus-default,
 ) !default;
 
-$gradients-colors: (
-    gradient-darkside: $gradients-gradient-darkside,
-    gradient-lightside: $gradients-gradient-lightside,
-    gradient-mid: $gradients-gradient-mid,
+$gradient-colors: (
+    darkside: $gradient-darkside,
+    lightside: $gradient-lightside,
+    mid: $gradient-mid,
 ) !default;
 
 $text-colors: (
