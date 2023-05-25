@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.12.0"></a>
+
+# [0.12.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.11.1...@lmc-eu/jobs-email-components@0.12.0) (2023-05-25)
+
+### Features
+
+- **email-components:** Alert component ([17d3b9c](https://github.com/lmc-eu/jobs-design-system/commit/17d3b9c))
+- **email-components:** Components documentation and examples ([2afb6c1](https://github.com/lmc-eu/jobs-design-system/commit/2afb6c1))
+- **email-components:** New component spacer ([377c9b4](https://github.com/lmc-eu/jobs-design-system/commit/377c9b4))
+- **email-components:** Result card ([bb6a8db](https://github.com/lmc-eu/jobs-design-system/commit/bb6a8db))
+- **email-components:** Tag component ([a5d1c6c](https://github.com/lmc-eu/jobs-design-system/commit/a5d1c6c))
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.11.1"></a>
 
 ## [0.11.1](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.11.0...@lmc-eu/jobs-email-components@0.11.1) (2023-05-15)
