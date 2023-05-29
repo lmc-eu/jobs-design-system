@@ -3,7 +3,7 @@
 The `mjc-link` component to create link.
 
 ```mjml
-<mjc-link href="www.sezam.cz" color="seconrady" size="small">Link</mjc-link>
+<mjc-link href="www.seznam.cz" color="seconrady" size="small">Link</mjc-link>
 ```
 
 ## Available props
