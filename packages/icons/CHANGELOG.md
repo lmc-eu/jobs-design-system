@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.8.2"></a>
+
+## [0.8.2](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.8.1...@lmc-eu/jobs-icons@0.8.2) (2023-05-29)
+
+Miscellaneous changes
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.8.1"></a>
 
 ## [0.8.1](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.8.0...@lmc-eu/jobs-icons@0.8.1) (2023-03-28)
