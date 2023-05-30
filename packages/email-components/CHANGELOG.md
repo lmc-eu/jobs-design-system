@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.12.2"></a>
+
+## [0.12.2](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.12.1...@lmc-eu/jobs-email-components@0.12.2) (2023-05-30)
+
+Miscellaneous changes
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.12.1"></a>
 
 ## [0.12.1](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.12.0...@lmc-eu/jobs-email-components@0.12.1) (2023-05-29)

@@ -1,6 +1,6 @@
 {
   "name": "@lmc-eu/jobs-email-components",
-  "version": "0.12.1",
+  "version": "0.12.2",
   "description": "Email components for mjml jobs email templates.",
   "license": "MIT",
   "publishConfig": {
@@ -46,7 +46,7 @@
     "@babel/register": "^7.21.0",
     "@lmc-eu/eslint-config-base": "^1.1.6",
     "@lmc-eu/eslint-config-react": "^1.1.1",
-    "@lmc-eu/jobs-design-tokens": "^1.7.1",
+    "@lmc-eu/jobs-design-tokens": "^1.7.2",
     "@lmc-eu/prettier-config": "^1.2.4",
     "@lmc-eu/spirit-design-tokens": "^0.25.2",
     "@lmc-eu/spirit-web": "^0.45.0",
