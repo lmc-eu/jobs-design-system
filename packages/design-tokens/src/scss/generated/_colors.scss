@@ -77,9 +77,6 @@ $emotion-warning-default: #d19d10 !default;
 $emotion-warning-disabled: #f3f3f3 !default;
 $emotion-warning-hover: #be8f0e !default;
 $focus-default: #61b3ff !default;
-$gradient-darkside: #073256 !default;
-$gradient-lightside: #185c95 !default;
-$gradient-mid: #0c4471 !default;
 $text-primary-default: #101c2d !default;
 $text-primary-disabled: #818ea2 !default;
 $text-primary-inverted-default: #fff !default;
@@ -183,12 +180,6 @@ $emotion-colors: (
 
 $focus-colors: (
     default: $focus-default,
-) !default;
-
-$gradient-colors: (
-    darkside: $gradient-darkside,
-    lightside: $gradient-lightside,
-    mid: $gradient-mid,
 ) !default;
 
 $text-colors: (
