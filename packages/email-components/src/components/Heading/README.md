@@ -8,9 +8,9 @@ The `mjc-heading` component is to create e-mail headings.
 
 ## Available props
 
-| Name          | Type                      | Default  | Description      |
-| ------------- | ------------------------- | -------- | ---------------- |
-| `align`       | `left \| right \| center` | `left`   | Text position    |
-| `elementType` | `HTMLElement`             | `div`    | HTML tag,        |
-| `size`        | `medium \| large`         | `medium` | Size of the text |
-| `title`       | `string`                  |          | Title            |
+| Name          | Type                       | Default  | Description      |
+| ------------- | -------------------------- | -------- | ---------------- |
+| `align`       | `left \| right \| center`  | `left`   | Text position    |
+| `elementType` | `HTMLElement`              | `div`    | HTML tag,        |
+| `size`        | `small \| medium \| large` | `medium` | Size of the text |
+| `title`       | `string`                   |          | Title            |

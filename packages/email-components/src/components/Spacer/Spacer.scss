@@ -2,3 +2,5 @@
 @use 'tools' as tools;
 
 @include tools.generate-sizes('Spacer', theme.$sizes);
+
+@include tools.generate-sizes('Spacer', theme.$sizes-responsive, '-responsive');

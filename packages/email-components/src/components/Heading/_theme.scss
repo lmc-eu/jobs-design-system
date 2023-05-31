@@ -10,6 +10,12 @@ $padding-bottom-mobile: tokens.$space-700;
 $padding-bottom-tablet: tokens.$space-800;
 
 $sizes: (
+    small: (
+        mobile: (
+            font-size: email-tokens.$heading-small-font-size,
+            line-height: email-tokens.$heading-small-line-height,
+        ),
+    ),
     medium: (
         mobile: (
             font-size: email-tokens.$heading-medium-font-size-mobile,

@@ -3,7 +3,7 @@
 The `mjc-alert` component is alert for e-mail template.
 
 ```mjml
-<mjc-alert color="denger" />
+<mjc-alert color="danger" />
 ```
 
 ## Available props

@@ -32,7 +32,7 @@ export default class Heading extends BodyComponent {
   static allowedAttributes = {
     align: 'enum(left,right,center)',
     elementType: 'enum(div,h1,h2,h3,h4,p,span)',
-    size: 'enum(medium,large)',
+    size: 'enum(small,medium,large)',
     title: 'string',
   };
 
@@ -62,7 +62,7 @@ export default class Heading extends BodyComponent {
                   class: className,
                 })}
               >
-                ${this.title}
+                ${this.title ? this.title : this.getContent()}
               </${this.elementType}>
             </td>
           </tr>
