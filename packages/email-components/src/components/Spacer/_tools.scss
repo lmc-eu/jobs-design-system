@@ -2,9 +2,11 @@
 @use '@tokens' as tokens;
 @use '../../scss/tools/breakpoint' as breakpoint;
 
-@mixin generate-sizes($class-name, $dictionary-values) {
+@mixin generate-sizes($class-name, $dictionary-values, $class-suffix: null) {
     @each $dictionary-name, $dictionary-breakpoints in $dictionary-values {
-        .#{$class-name}--#{$dictionary-name} {
+        $responsive-suffix: if($class-suffix, $class-suffix, '');
+
+        .#{$class-name}--#{$dictionary-name}#{$responsive-suffix} {
             @each $breakpoint-name, $breakpoint-value in tokens.$breakpoints {
                 @include breakpoint.up($breakpoint-value) {
                     @if map.has-key($dictionary-breakpoints, $breakpoint-name) {

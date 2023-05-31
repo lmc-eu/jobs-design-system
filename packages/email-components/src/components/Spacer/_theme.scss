@@ -3,11 +3,29 @@
 $breakpoint: tokens.$breakpoint-tablet;
 
 $sizes: (
+    xsmall: (
+        mobile: (
+            height: tokens.$space-400,
+        ),
+    ),
     small: (
         mobile: (
             height: tokens.$space-500,
         ),
     ),
+    medium: (
+        mobile: (
+            height: tokens.$space-700,
+        ),
+    ),
+    large: (
+        mobile: (
+            height: tokens.$space-800,
+        ),
+    ),
+);
+
+$sizes-responsive: (
     medium: (
         mobile: (
             height: tokens.$space-600,

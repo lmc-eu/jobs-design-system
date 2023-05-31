@@ -2,18 +2,21 @@ import { BodyComponent } from 'mjml-core';
 import { loadComponentStyles } from '../../scssLoaders/loadComponentStyles';
 
 export default class Spacer extends BodyComponent {
-  private readonly size: 'small' | 'medium' | 'large';
+  private readonly size: 'xsmall' | 'small' | 'medium' | 'large';
+  private readonly isResponsive: boolean;
 
   constructor(initialData = {}) {
     super(initialData);
 
+    this.isResponsive = this.getAttribute('isResponsive');
     this.size = this.getAttribute('size');
   }
 
   static componentName = 'mjc-spacer';
 
   static allowedAttributes = {
-    size: 'enum(small,medium,large)',
+    isResponsive: 'boolean',
+    size: 'enum(xsmall,small,medium,large)',
   };
 
   static dependencies = {
@@ -22,13 +25,14 @@ export default class Spacer extends BodyComponent {
   };
 
   static defaultAttributes = {
+    isResponsive: 'true',
     size: 'medium',
   };
 
   headStyle = () => loadComponentStyles(`${__dirname}/Spacer.css`);
 
   render() {
-    const className = `Spacer--${this.size}`;
+    const className = `Spacer--${this.size}${this.isResponsive ? '-responsive' : ''}`;
 
     return `
       <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="${className}" ><![endif]-->
