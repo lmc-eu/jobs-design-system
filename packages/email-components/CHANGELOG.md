@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.13.0"></a>
+
+# [0.13.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.12.2...@lmc-eu/jobs-email-components@0.13.0) (2023-06-01)
+
+### Features
+
+- **email-components:** Header add small size, add content as content; Spacer add prop isResponsive ([52d5b10](https://github.com/lmc-eu/jobs-design-system/commit/52d5b10))
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.12.2"></a>
 
 ## [0.12.2](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.12.1...@lmc-eu/jobs-email-components@0.12.2) (2023-05-30)
