@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.15.0"></a>
+
+# [0.15.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.14.0...@lmc-eu/jobs-email-components@0.15.0) (2023-06-01)
+
+### Features
+
+- **email-components:** Heading - delete default padding, use component spacer ([5772ad7](https://github.com/lmc-eu/jobs-design-system/commit/5772ad7))
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.14.0"></a>
 
 # [0.14.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.13.0...@lmc-eu/jobs-email-components@0.14.0) (2023-06-01)
