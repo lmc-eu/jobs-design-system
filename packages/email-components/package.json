@@ -1,6 +1,6 @@
 {
   "name": "@lmc-eu/jobs-email-components",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "Email components for mjml jobs email templates.",
   "license": "MIT",
   "publishConfig": {
