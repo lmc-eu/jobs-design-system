@@ -7,19 +7,19 @@
   <mj-column width="45%">
     <mj-text><strong>Responsive variants:</strong></mj-text>
     <mj-text>Spacer default medium variant (16/24 px):</mj-text>
-    <mjc-spacer size="medium" />
+    <mjc-spacer size="medium" isResponsive="true" />
     <mj-text>Spacer large variant(24/32px):</mj-text>
-    <mjc-spacer size="large" />
+    <mjc-spacer size="large" isResponsive="true" />
   </mj-column>
   <mj-column width="45%">
     <mj-text><strong>No responsive variants:</strong></mj-text>
     <mj-text>Spacer xsmall variant(8px):</mj-text>
-    <mjc-spacer size="xsmall" isResponsive="false" />
+    <mjc-spacer size="xsmall" />
     <mj-text>Spacer small variant(12px):</mj-text>
-    <mjc-spacer size="small" isResponsive="false" />
+    <mjc-spacer size="small" />
     <mj-text>Spacer default medium variant (24 px):</mj-text>
-    <mjc-spacer size="medium" isResponsive="false" />
+    <mjc-spacer size="medium" />
     <mj-text>Spacer large variant(32px):</mj-text>
-    <mjc-spacer size="large" isResponsive="false" />
+    <mjc-spacer size="large" />
   </mj-column>
 </mjc-content>
