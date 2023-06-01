@@ -5,8 +5,11 @@
     <mj-include path="./stories/HeadingProps.mjml" />
 
     <mjc-heading title="Heading small" size="small"></mjc-heading>
+    <mjc-spacer isResponsive="true" size="large" />
     <mjc-heading title="Heading medium"></mjc-heading>
+    <mjc-spacer isResponsive="true" size="large" />
     <mjc-heading title="Heading large" size="large"></mjc-heading>
+    <mjc-spacer isResponsive="true" size="large" />
     <mjc-heading>Heading as content</mjc-heading>
   </mj-column>
 </mjc-content>
