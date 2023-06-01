@@ -25,7 +25,6 @@ export default class Spacer extends BodyComponent {
   };
 
   static defaultAttributes = {
-    isResponsive: 'true',
     size: 'medium',
   };
 

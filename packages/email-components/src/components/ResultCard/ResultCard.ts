@@ -61,7 +61,7 @@ export default class ResultCard extends BodyComponent {
               <td>
                 ${this.renderMJML(`
                     <mj-divider border-width="1px" border-style="solid" border-color="#E2E8ED" />
-                    <mj-spacer height="24px" />
+                    <mjc-spacer />
                     ${
                       this.subtitle
                         ? `
@@ -85,7 +85,7 @@ export default class ResultCard extends BodyComponent {
                             : ''
                         }
                     </mjc-text>
-                    <mj-spacer height="24px" />
+                    <mjc-spacer />
                     ${
                       this.hasBottomSeparator
                         ? '<mj-divider border-width="1px" border-style="solid" border-color="#E2E8ED" />'
