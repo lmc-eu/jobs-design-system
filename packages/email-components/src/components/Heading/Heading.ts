@@ -45,7 +45,7 @@ export default class Heading extends BodyComponent {
   headStyle = () => loadComponentStyles(`${__dirname}/Heading.css`);
 
   render() {
-    const className = `Heading__text Heading__text--${this.size}`;
+    const className = `Heading Heading--${this.size}`;
 
     return `
       <table
@@ -56,7 +56,7 @@ export default class Heading extends BodyComponent {
       >
         <tbody>
           <tr>
-            <td role="presentation" class="Heading">
+            <td role="presentation">
               <${this.elementType}
                 ${this.htmlAttributes({
                   class: className,
