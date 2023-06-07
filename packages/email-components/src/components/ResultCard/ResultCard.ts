@@ -1,10 +1,11 @@
 import { BodyComponent } from 'mjml-core';
 import { loadComponentStyles } from '../../scssLoaders/loadComponentStyles';
+import { sparkpostCondition, sparkpostVariableExist } from '../../helpers/sparkpostCondition';
 
 export default class ResultCard extends BodyComponent {
   private readonly badge: string;
   private readonly employer: string;
-  private readonly hasBottomSeparator: boolean;
+  private readonly hasBottomDivider: boolean;
   private readonly link: string;
   private readonly location: string;
   private readonly salary: string;
@@ -14,7 +15,7 @@ export default class ResultCard extends BodyComponent {
   constructor(initialData = {}) {
     super(initialData);
     this.badge = this.getAttribute('badge');
-    this.hasBottomSeparator = this.getAttribute('bottomSeparator') === true;
+    this.hasBottomDivider = this.getAttribute('bottomDivider');
     this.employer = this.getAttribute('employer');
     this.link = this.getAttribute('link');
     this.location = this.getAttribute('location');
@@ -32,20 +33,67 @@ export default class ResultCard extends BodyComponent {
 
   static allowedAttributes = {
     badge: 'string',
-    bottomSeparator: 'enum(true,false)',
+    bottomDivider: 'boolean',
     employer: 'string',
     link: 'string',
     location: 'string',
     salary: 'string',
+    sparkpostBadgeCondition: 'string',
+    sparkpostBottomDividerCondition: 'string',
+    sparkpostSubtitleCondition: 'string',
     subtitle: 'string',
     title: 'string',
   };
 
-  static defaultAttributes = {
-    bottomSeparator: 'false',
-  };
-
   headStyle = () => loadComponentStyles(`${__dirname}/ResultCard.css`);
+
+  generateBadge() {
+    if (this.badge)
+      return sparkpostCondition(`<mjc-tag text="${this.badge}" />`, this.getAttribute('sparkpostBadgeCondition'));
+
+    return '';
+  }
+
+  generateBottomDivider() {
+    const bottomDividerCondition = this.getAttribute('sparkpostBottomDividerCondition');
+    if (this.hasBottomDivider || bottomDividerCondition)
+      return sparkpostCondition(
+        '<mj-divider border-width="1px" border-style="solid" border-color="#E2E8ED" />',
+        bottomDividerCondition,
+      );
+
+    return '';
+  }
+
+  generateLocation() {
+    if (this.location)
+      return sparkpostVariableExist(
+        `<span class="ResultCard__separator">•</span><br class="ResultCard__badgeNewLine" /><span class="ResultCard__secondBadge">{{{${this.location}}}}</span>`,
+        this.location,
+      );
+
+    return '';
+  }
+
+  generateSalary() {
+    if (this.salary)
+      return sparkpostVariableExist(`<mjc-tag color="success" text="{{{${this.salary}}}}" />`, this.salary);
+
+    return '';
+  }
+
+  generateSubtitle() {
+    if (this.subtitle)
+      return sparkpostCondition(
+        `
+          <mjc-text size="small" color="secondary">${this.subtitle}</mjc-text>
+          <mjc-spacer size="small" />
+        `,
+        this.getAttribute('sparkpostSubtitleCondition'),
+      );
+
+    return null;
+  }
 
   render() {
     return `
@@ -62,35 +110,20 @@ export default class ResultCard extends BodyComponent {
                 ${this.renderMJML(`
                     <mj-divider border-width="1px" border-style="solid" border-color="#E2E8ED" />
                     <mjc-spacer />
-                    ${
-                      this.subtitle
-                        ? `
-                        <mjc-text size="small" color="secondary">${this.subtitle}</mjc-text>
-                        <mjc-spacer size="small" />
-                        `
-                        : ''
-                    }
+                    ${this.generateSubtitle()}
                     <mjc-link underline="none" href="${this.link}" size="large">${this.title}</mjc-link>
                     <mjc-spacer size="small" />
                     <mjc-row>
-                        ${this.salary ? `<mjc-tag color="success" text="${this.salary}" />` : ''}
-                        ${this.badge ? `<mjc-tag text="${this.badge}" />` : ''} 
+                        ${this.generateSalary()}
+                        ${this.generateBadge()} 
                     </mjc-row>
                     <mj-spacer height="4px" />
                     <mjc-text size="small" color="secondary">
                         ${this.employer}
-                        ${
-                          this.location
-                            ? `<span class="ResultCard__separator">•</span><br class="ResultCard__badgeNewLine" /><span class="ResultCard__secondBadge">${this.location}</span>`
-                            : ''
-                        }
+                        ${this.generateLocation()}
                     </mjc-text>
                     <mjc-spacer />
-                    ${
-                      this.hasBottomSeparator
-                        ? '<mj-divider border-width="1px" border-style="solid" border-color="#E2E8ED" />'
-                        : ''
-                    }
+                    ${this.generateBottomDivider()}
                 `)}
               </td>
             </tr>

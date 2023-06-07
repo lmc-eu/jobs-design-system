@@ -10,6 +10,8 @@
       employer="UniCredit Bank Czech Republic and Slovakia"
       link="https://jobs.cz"
       location="Brno"
+      subtitle="Doporučujeme"
+      sparkpostSubtitleCondition="{{ if loop_var.adType != 'agentAd' }}"
       salary="30 000 - 50 000 Kč"
       title="Obchodní zástupce výdejních míst - Moravskoslezský kraj"
     />
@@ -25,9 +27,8 @@
       badge="Odpověď do 2 týdnů"
       employer="UniCredit Bank Czech Republic and Slovakia"
       link="https://jobs.cz"
-      subtitle="Doporučujeme"
       title="Obchodní zástupce výdejních míst - Praha"
-      bottomSeparator="true"
+      bottomDivider="true"
     />
   </mj-column>
 </mjc-content>

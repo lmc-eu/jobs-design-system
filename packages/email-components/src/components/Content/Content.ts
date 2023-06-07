@@ -5,7 +5,7 @@ const { registerDependencies } = require('mjml-validator');
 registerDependencies({
   'mj-body': ['mjc-content'],
   'mj-wrapper': ['mjc-content'],
-  'mjc-content': ['mj-column', 'mj-text', 'mjc-heading', 'mjc-button'],
+  'mjc-content': ['mj-group', 'mj-column', 'mj-text', 'mjc-heading', 'mjc-button'],
 });
 
 export default class Content extends BodyComponent {
@@ -13,7 +13,7 @@ export default class Content extends BodyComponent {
   static dependencies = {
     'mj-body': ['mjc-content'],
     'mj-wrapper': ['mjc-content'],
-    'mjc-content': ['mj-column', 'mj-text', 'mjc-heading', 'mjc-button'],
+    'mjc-content': ['mj-group', 'mj-column', 'mj-text', 'mjc-heading', 'mjc-button'],
   };
   headStyle = () => loadComponentStyles(`${__dirname}/Content.css`);
 
