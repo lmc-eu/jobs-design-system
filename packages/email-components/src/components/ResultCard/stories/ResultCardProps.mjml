@@ -17,7 +17,7 @@
       <td>Your badge text</td>
     </tr>
     <tr>
-      <td>bottomSeparator</td>
+      <td>bottomDivider</td>
       <td><code>true | false</code></td>
       <td><code>false</code></td>
       <td>no</td>
@@ -50,6 +50,27 @@
       <td></td>
       <td>no</td>
       <td>Salary badge</td>
+    </tr>
+    <tr>
+      <td>sparkpostBadgeCondition</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Condition in Sparkpost to show or hide the badge</td>
+    </tr>
+    <tr>
+      <td>sparkpostBottomDividerCondition</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Condition in Sparkpost to show or hide the bottom divider</td>
+    </tr>
+    <tr>
+      <td>sparkpostSubtitleCondition</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Condition in Sparkpost to show or hide the subtitle</td>
     </tr>
     <tr>
       <td>subtitle</td>
