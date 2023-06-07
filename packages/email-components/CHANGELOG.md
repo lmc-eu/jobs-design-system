@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.15.1"></a>
+
+## [0.15.1](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.15.0...@lmc-eu/jobs-email-components@0.15.1) (2023-06-07)
+
+### Bug Fixes
+
+- **email-components:** Result Card fix conditional parameters and custom condition for showing parts ([68f1a62](https://github.com/lmc-eu/jobs-design-system/commit/68f1a62))
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.15.0"></a>
 
 # [0.15.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.14.0...@lmc-eu/jobs-email-components@0.15.0) (2023-06-01)
