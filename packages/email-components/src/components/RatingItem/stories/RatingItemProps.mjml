@@ -1,0 +1,56 @@
+<mj-table padding="0" font-size="13px" css-class="readme-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>alt</code></td>
+      <td><code>string</code></td>
+      <td><code>-</code></td>
+      <td>no</td>
+      <td>Image alternative descriptive text</td>
+    </tr>
+    <tr>
+      <td><code>href</code></td>
+      <td><code>string</code></td>
+      <td><code>-</code></td>
+      <td>yes</td>
+      <td>Link to url</td>
+    </tr>
+    <tr>
+      <td><code>isTableCell</code></td>
+      <td><code>boolean</code></td>
+      <td>false</td>
+      <td>no</td>
+      <td>Render RatingItem as table cell when being used in combination with Rating component as parent directly</td>
+    </tr>
+    <tr>
+      <td><code>rel</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>no</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel">HTML/Attributes/rel</a></td>
+    </tr>
+    <tr>
+      <td><code>src</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>yes</td>
+      <td>Image source</td>
+    </tr>
+    <tr>
+      <td><code>title</code></td>
+      <td><code>string</code></td>
+      <td>-</td>
+      <td>no</td>
+      <td>Title</td>
+    </tr>
+  </tbody>
+</mj-table>
+<mjc-spacer />

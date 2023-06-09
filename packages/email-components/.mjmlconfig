@@ -6,6 +6,8 @@
     "./dist/components/Header/Header.js",
     "./dist/components/Heading/Heading.js",
     "./dist/components/Link/Link.js",
+    "./dist/components/Rating/Rating.js",
+    "./dist/components/RatingItem/RatingItem.js",
     "./dist/components/ResultCard/ResultCard.js",
     "./dist/components/Row/Row.js",
     "./dist/components/Spacer/Spacer.js",

@@ -1,0 +1,44 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Rating</strong> - mjc-rating</mj-text>
+    <mj-include path="./stories/RatingProps.mjml" />
+    <mjc-spacer size="large" />
+  </mj-column>
+
+  <mj-column width="100%">
+    <mjc-rating align="center">
+      <mjc-rating-item
+        alt="Smiley in love"
+        href="https://jobs.cz"
+        src="https://ijobs.cz/static/images/email/icons/smiley-in-love.png?1"
+        title="Přijali mě"
+      />
+
+      <mjc-rating-item
+        alt="Smiley in love"
+        href="https://jobs.cz"
+        src="https://ijobs.cz/static/images/email/icons/smiley-smile.png?1"
+        title="Ještě jednáme"
+      />
+      <mjc-rating-item
+        alt="Smiley wink"
+        href="https://jobs.cz"
+        src="https://ijobs.cz/static/images/email/icons/smiley-wink.png?1"
+        title="Odmítl/a jsem"
+      />
+      <mjc-rating-item
+        alt="Smiley sad"
+        href="https://jobs.cz"
+        src="https://ijobs.cz/static/images/email/icons/smiley-sad.png?1"
+        title="Nevzali mě"
+      />
+      <mjc-rating-item
+        alt="Smiley sad"
+        href="https://jobs.cz"
+        src="https://ijobs.cz/static/images/email/icons/smiley-sad.png?1"
+        title="Nevzali mě"
+      />
+    </mjc-rating>
+  </mj-column>
+</mjc-content>
