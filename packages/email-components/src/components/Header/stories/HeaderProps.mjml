@@ -35,7 +35,7 @@
       <td><code>string</code></td>
       <td>-</td>
       <td>no</td>
-      <td>Image alt description</td>
+      <td>Image alternative descriptive text</td>
     </tr>
     <tr>
       <td><code>imageUrl</code></td>

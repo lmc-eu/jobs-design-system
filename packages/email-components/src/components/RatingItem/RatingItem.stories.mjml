@@ -1,0 +1,17 @@
+<mjc-content>
+  <mj-column width="100%">
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: Rating item</strong></mj-text>
+    <mj-include path="./stories/RatingItemProps.mjml" />
+    <mjc-spacer size="large" />
+  </mj-column>
+
+  <mj-column width="100%">
+    <mjc-rating-item
+      alt="Smiley in love"
+      href="https://jobs.cz/"
+      src="https://ijobs.cz/static/images/email/icons/smiley-in-love.png?1"
+      title="Přijali mě"
+    />
+  </mj-column>
+</mjc-content>

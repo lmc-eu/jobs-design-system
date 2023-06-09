@@ -1,0 +1,28 @@
+@use '@tokens' as tokens;
+@use '../../scss/@email-tokens' as email-tokens;
+
+$breakpoint: tokens.$breakpoint-tablet;
+
+$item-mobile-width: 56px;
+$item-table-width: 72px;
+
+$font-family: email-tokens.$font-family-base;
+$font-size-mobile: email-tokens.$text-xsmall-font-size;
+$font-size-tablet: email-tokens.$text-small-font-size;
+
+$line-height-mobile: email-tokens.$text-xsmall-line-height;
+$line-height-tablet: email-tokens.$text-small-line-height;
+
+$color: tokens.$action-link-secondary-default;
+
+$border-width: tokens.$border-width-100;
+$border-style: tokens.$border-style-100;
+$border-radius: tokens.$radius-100;
+$border-color: tokens.$border-secondary-default;
+
+$padding-mobile: tokens.$space-400 tokens.$space-200;
+$padding-tablet: tokens.$space-500 tokens.$space-400;
+
+$icon-size: 22px;
+$icon-bottom-spacing-mobile: tokens.$space-400 + $border-width;
+$icon-bottom-spacing-tablet: tokens.$space-500 + $border-width;

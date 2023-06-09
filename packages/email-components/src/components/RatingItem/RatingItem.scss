@@ -1,0 +1,47 @@
+@use 'theme';
+
+.RatingItem {
+    padding-right: 12px;
+}
+
+.RatingItem--last {
+    padding-right: 0 !important;
+}
+
+.RatingItem__link {
+    display: inline-block;
+    box-sizing: border-box;
+    width: theme.$item-mobile-width;
+    padding: theme.$padding-mobile;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    border: theme.$border-width theme.$border-style theme.$border-color;
+    border-radius: theme.$border-radius;
+    user-select: none;
+    cursor: pointer;
+
+    @media (min-width: theme.$breakpoint) {
+        width: theme.$item-table-width !important;
+        padding: theme.$padding-tablet !important;
+    }
+}
+
+.RatingItem__icon {
+    width: theme.$icon-size;
+    height: theme.$icon-size;
+}
+
+.RatingItem__text {
+    padding-top: theme.$icon-bottom-spacing-mobile;
+    font-size: theme.$font-size-mobile;
+    line-height: theme.$line-height-mobile;
+    font-family: theme.$font-family;
+    color: theme.$color;
+
+    @media (min-width: theme.$breakpoint) {
+        padding-top: theme.$icon-bottom-spacing-tablet !important;
+        font-size: theme.$font-size-tablet !important;
+        line-height: theme.$line-height-tablet !important;
+    }
+}
