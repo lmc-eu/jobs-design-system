@@ -14,6 +14,8 @@
       sparkpostSubtitleCondition="{{ if loop_var.adType != 'agentAd' }}"
       salary="30 000 - 50 000 Kč"
       title="Obchodní zástupce výdejních míst - Moravskoslezský kraj"
+      sparkpostBadgeCondition="{{ loop_var.badge }}"
+      sparkpostBottomDividerCondition="{{ if loop_var.positionAdInAgentEmail == foundAdsTotalCount }}"
     />
     <mjc-result-card
       employer="UniCredit Bank Czech Republic and Slovakia"

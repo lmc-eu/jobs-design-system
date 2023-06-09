@@ -68,7 +68,7 @@ export default class ResultCard extends BodyComponent {
   generateLocation() {
     if (this.location)
       return sparkpostVariableExist(
-        `<span class="ResultCard__separator">•</span><br class="ResultCard__badgeNewLine" /><span class="ResultCard__secondBadge">{{{${this.location}}}}</span>`,
+        `<span class="ResultCard__separator">•</span><br class="ResultCard__badgeNewLine" /><span class="ResultCard__secondBadge">${this.location}</span>`,
         this.location,
       );
 
@@ -76,8 +76,7 @@ export default class ResultCard extends BodyComponent {
   }
 
   generateSalary() {
-    if (this.salary)
-      return sparkpostVariableExist(`<mjc-tag color="success" text="{{{${this.salary}}}}" />`, this.salary);
+    if (this.salary) return sparkpostVariableExist(`<mjc-tag color="success" text="${this.salary}" />`, this.salary);
 
     return '';
   }
