@@ -1,12 +1,7 @@
 @use 'sass:map';
 @use 'sass:meta';
 @use '@tokens' as tokens;
+@use '../../scss/@email-tokens' as email-tokens;
 
 $background-backup: tokens.$brand-primary;
-
-$background-value: $background-backup;
-@if meta.global-variable-exists(gradient-diagonal, tokens) {
-    $background-value: tokens.$gradient-diagonal;
-}
-
-$background: $background-value;
+$background: email-tokens.$gradient-diagonal-email;

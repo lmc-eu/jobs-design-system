@@ -1,0 +1,8 @@
+@use '@tokens' as tokens;
+
+// Cannot use generated token because email clients do not support --var.
+$gradient-diagonal-email: linear-gradient(
+    135deg,
+    tokens.$gradient-darkside 0%,
+    tokens.$gradient-lightside 100%
+) !default;
