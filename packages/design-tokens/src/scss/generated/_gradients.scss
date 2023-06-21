@@ -1,9 +1,16 @@
 // Generated Gradients from Supernova. Do not edit manually.
+$basic-overlay-ltr: linear-gradient(var(--angle, 90deg), #fff 0%, #ffffff00 100%) !default;
+$basic-overlay-rtl: linear-gradient(var(--angle, 270deg), #fff 0%, #ffffff00 100%) !default;
 $gradient-background-basic-overlay: linear-gradient(var(--angle, 90deg), #fff 0%, #ffffff00 100%) !default;
 $gradient-blue: linear-gradient(var(--angle, 180deg), #9ab3db 0%, #3f74c9 100%) !default;
 $gradient-diagonal: linear-gradient(var(--angle, 135deg), #073256 0%, #185c95 100%) !default;
 $gradient-horizontal: linear-gradient(var(--angle, 90deg), #073256 0%, #185c95 100%) !default;
 $gradient-orange: linear-gradient(var(--angle, 180deg), #ff9a01 0%, #ffd601 100%) !default;
+
+$basics: (
+    overlay-ltr: $basic-overlay-ltr,
+    overlay-rtl: $basic-overlay-rtl,
+) !default;
 
 $gradients: (
     background-basic-overlay: $gradient-background-basic-overlay,
