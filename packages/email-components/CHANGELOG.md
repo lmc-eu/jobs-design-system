@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.17.1"></a>
+
+## [0.17.1](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.17.0...@lmc-eu/jobs-email-components@0.17.1) (2023-06-21)
+
+### Bug Fixes
+
+- **email-components:** Fix Rating item text underline, icon size ([35dcc5a](https://github.com/lmc-eu/jobs-design-system/commit/35dcc5a))
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.17.0"></a>
 
 # [0.17.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.16.1...@lmc-eu/jobs-email-components@0.17.0) (2023-06-19)
