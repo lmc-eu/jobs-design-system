@@ -12,7 +12,7 @@
         alt="Smiley in love"
         href="https://jobs.cz"
         src="https://ijobs.cz/static/images/email/icons/smiley-in-love.png?1"
-        title="Přijali mě"
+        title="Přijali<br />mě"
       />
 
       <mjc-rating-item
@@ -37,7 +37,7 @@
         alt="Smiley sad"
         href="https://jobs.cz"
         src="https://ijobs.cz/static/images/email/icons/smiley-sad.png?1"
-        title="Nevzali mě"
+        title="Neozvali se"
       />
     </mjc-rating>
   </mj-column>
