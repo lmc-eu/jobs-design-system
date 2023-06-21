@@ -15,6 +15,7 @@
     padding: theme.$padding-mobile;
     overflow: hidden;
     text-align: center;
+    text-decoration: none !important;
     vertical-align: middle;
     border: theme.$border-width theme.$border-style theme.$border-color;
     border-radius: theme.$border-radius;
@@ -37,6 +38,7 @@
     font-size: theme.$font-size-mobile;
     line-height: theme.$line-height-mobile;
     font-family: theme.$font-family;
+    text-decoration: none !important;
     color: theme.$color;
 
     @media (min-width: theme.$breakpoint) {
