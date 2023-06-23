@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.10.0"></a>
+
+# [0.10.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.8.1...@lmc-eu/jobs-icons@0.10.0) (2023-06-23)
+
+### Chores
+
+- **release:** Publish ([6e9e7c7](https://github.com/lmc-eu/jobs-design-system/commit/6e9e7c7))
+- **release:** Publish ([4280d58](https://github.com/lmc-eu/jobs-design-system/commit/4280d58))
+- **release:** Publish ([6142718](https://github.com/lmc-eu/jobs-design-system/commit/6142718))
+
+### Features
+
+- **icons:** Add file-dualtone icon ([6d1b44f](https://github.com/lmc-eu/jobs-design-system/commit/6d1b44f))
+- **icons:** Replace profile icon ([8024b56](https://github.com/lmc-eu/jobs-design-system/commit/8024b56))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.9.0"></a>
 
 # [0.9.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.8.3...@lmc-eu/jobs-icons@0.9.0) (2023-06-01)
