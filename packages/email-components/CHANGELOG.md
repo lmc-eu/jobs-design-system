@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.18.0"></a>
+
+# [0.18.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.17.1...@lmc-eu/jobs-email-components@0.18.0) (2023-06-26)
+
+### Bug Fixes
+
+- **email-components:** Rating item space under icon ([e6a35a5](https://github.com/lmc-eu/jobs-design-system/commit/e6a35a5))
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.17.1"></a>
 
 ## [0.17.1](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.17.0...@lmc-eu/jobs-email-components@0.17.1) (2023-06-21)
