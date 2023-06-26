@@ -36,7 +36,7 @@
       <mjc-rating-item
         alt="Smiley sad"
         href="https://jobs.cz"
-        src="https://ijobs.cz/static/images/email/icons/smiley-sad.png?1"
+        src="https://ijobs.cz/static/images/email/icons/smiley-muted.png?1"
         title="Neozvali se"
       />
     </mjc-rating>
