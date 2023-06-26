@@ -24,5 +24,5 @@ $padding-mobile: tokens.$space-400 tokens.$space-200;
 $padding-tablet: tokens.$space-500 tokens.$space-400;
 
 $icon-size: 24px;
-$icon-bottom-spacing-mobile: tokens.$space-400 + $border-width;
-$icon-bottom-spacing-tablet: tokens.$space-500 + $border-width;
+$icon-bottom-spacing-mobile: tokens.$space-400;
+$icon-bottom-spacing-tablet: tokens.$space-500;
