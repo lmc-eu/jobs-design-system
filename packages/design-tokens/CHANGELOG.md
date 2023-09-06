@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.9.0"></a>
+
+# [1.9.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.7.0...@lmc-eu/jobs-design-tokens@1.9.0) (2023-09-06)
+
+### Chores
+
+- **release:** Publish ([6e9e7c7](https://github.com/lmc-eu/jobs-design-tokens/commit/6e9e7c7))
+- **release:** Publish ([4280d58](https://github.com/lmc-eu/jobs-design-tokens/commit/4280d58))
+- **release:** Publish ([23fe5a4](https://github.com/lmc-eu/jobs-design-tokens/commit/23fe5a4))
+
+### Features
+
+- **design-tokens:** Updated styles and tokens ([84ede82](https://github.com/lmc-eu/jobs-design-tokens/commit/84ede82))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.8.0"></a>
 
 # [1.8.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.7.2...@lmc-eu/jobs-design-tokens@1.8.0) (2023-06-01)
