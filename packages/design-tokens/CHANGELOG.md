@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.10.0"></a>
+
+# [1.10.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.9.0...@lmc-eu/jobs-design-tokens@1.10.0) (2023-10-26)
+
+### Features
+
+- **design-tokens:** Edit typography styles and action colors, minification of the shadow values ([af9c3ae](https://github.com/lmc-eu/jobs-design-tokens/commit/af9c3ae))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.9.0"></a>
 
 # [1.9.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.7.0...@lmc-eu/jobs-design-tokens@1.9.0) (2023-09-06)
