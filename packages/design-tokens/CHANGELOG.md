@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.10.1"></a>
+
+## [1.10.1](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.10.0...@lmc-eu/jobs-design-tokens@1.10.1) (2023-10-26)
+
+### Bug Fixes
+
+- **design-tokens:** Edit shadows with negative number values ([11acac6](https://github.com/lmc-eu/jobs-design-tokens/commit/11acac6))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.10.0"></a>
 
 # [1.10.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.9.0...@lmc-eu/jobs-design-tokens@1.10.0) (2023-10-26)
