@@ -17,6 +17,13 @@
       <td>Image alternative descriptive text</td>
     </tr>
     <tr>
+      <td>data-msys-linkname</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Data analytics attribute</td>
+    </tr>
+    <tr>
       <td><code>href</code></td>
       <td><code>string</code></td>
       <td><code>-</code></td>
