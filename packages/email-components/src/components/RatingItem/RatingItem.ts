@@ -28,6 +28,7 @@ export default class RatingItem extends BodyComponent {
 
   static allowedAttributes = {
     alt: 'string',
+    'data-msys-linkname': 'string',
     href: 'string',
     isTableCell: 'boolean',
     rel: 'string',
@@ -50,10 +51,11 @@ export default class RatingItem extends BodyComponent {
     return this.generateTableCell(`
       <a
         ${this.htmlAttributes({
+          class: 'RatingItem__link',
+          'data-msys-linkname': this.getAttribute('data-msys-linkname'),
           href: this.href,
           rel: this.rel,
           target: '_blank',
-          class: 'RatingItem__link',
         })}
       >
         <img

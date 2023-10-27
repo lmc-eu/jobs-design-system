@@ -27,6 +27,7 @@ export default class Button extends BodyComponent {
   static allowedAttributes = {
     align: 'enum(left,center,right)',
     color: 'enum(primary,secondary)',
+    'data-msys-linkname': 'string',
     href: 'string',
     'padding-bottom': 'unit(px,%)',
     'padding-top': 'unit(px,%)',

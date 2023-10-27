@@ -21,6 +21,13 @@
       <td>Color</td>
     </tr>
     <tr>
+      <td>data-msys-linkname</td>
+      <td><code>string</code></td>
+      <td></td>
+      <td>no</td>
+      <td>Data analytics attribute</td>
+    </tr>
+    <tr>
       <td><code>element type</code></td>
       <td><code>HTMLElement - div | a</code></td>
       <td><code>div</code></td>

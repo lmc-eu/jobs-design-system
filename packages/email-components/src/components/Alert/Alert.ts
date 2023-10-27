@@ -36,6 +36,7 @@ export default class Alert extends BodyComponent {
   static allowedAttributes = {
     align: 'enum(left,center,right)',
     color: 'enum(success,informative,warning,danger)',
+    'data-msys-linkname': 'string',
     elementType: 'enum(div,a)',
     href: 'string',
   };

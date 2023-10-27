@@ -34,6 +34,7 @@ export default class ResultCard extends BodyComponent {
   static allowedAttributes = {
     badge: 'string',
     bottomDivider: 'boolean',
+    'data-msys-linkname': 'string',
     employer: 'string',
     link: 'string',
     location: 'string',
@@ -110,7 +111,14 @@ export default class ResultCard extends BodyComponent {
                     <mj-divider border-width="1px" border-style="solid" border-color="#E2E8ED" />
                     <mjc-spacer />
                     ${this.generateSubtitle()}
-                    <mjc-link underline="none" href="${this.link}" size="large">${this.title}</mjc-link>
+                    <mjc-link
+                        data-msys-linkname="${this.getAttribute('data-msys-linkname')}"
+                        href="${this.link}"
+                        size="large"
+                        underline="none"
+                    >
+                        ${this.title}
+                    </mjc-link>
                     <mjc-spacer size="small" />
                     <mjc-row>
                         ${this.generateSalary()}
