@@ -41,8 +41,8 @@ export default class Header extends BodyComponent {
 
   static allowedAttributes = {
     alight: 'enum(left,right,center)',
-    height: 'unit(px,%)',
     externalLink: 'string',
+    height: 'unit(px,%)',
     imageAlt: 'string',
     imageUrl: 'string',
     width: 'unit(px,%)',

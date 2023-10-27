@@ -19,6 +19,7 @@ The `mjc-result-card` is component to render result card in your emails.
 | ------------------------------- | --------------- | ------- | -------- | --------------------------------------------------------- |
 | badge                           | `string`        |         | no       | Your badge text                                           |
 | bottomDivider                   | `true \| false` | `false` | no       | Show bottom divider                                       |
+| data-msys-linkname              | `string`        |         | no       | Data analytics attribute                                  |
 | employer                        | `string`        |         | yes      | Emloyer name                                              |
 | link                            | `string`        |         | yes      | Link to url                                               |
 | location                        | `string`        |         | no       | Location                                                  |

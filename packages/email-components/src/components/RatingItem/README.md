@@ -13,11 +13,12 @@ The `mjc-rating-item` is a component with the text below the icon and with the l
 
 ## Available props for mjc-rating-item
 
-| Prop name     | Type      | Default | Required | Description                                                                                             |
-| ------------- | --------- | ------- | -------- | ------------------------------------------------------------------------------------------------------- |
-| `alt`         | `string`  | -       | no       | Image alternative descriptive text                                                                      |
-| `href`        | `string`  | -       | yes      | Link to url                                                                                             |
-| `isTableCell` | `boolean` | `false` | no       | Render RatingItem as table cell when being used in combination with Rating component as parent directly |
-| `rel`         | `string`  | -       | no       | Relationship between a linked resource and the current document                                         |
-| `src`         | `string`  | -       | yes      | Image source                                                                                            |
-| `title`       | `string`  | `div`   | no       | Text located below icon                                                                                 |
+| Prop name            | Type      | Default | Required | Description                                                                                             |
+| -------------------- | --------- | ------- | -------- | ------------------------------------------------------------------------------------------------------- |
+| `alt`                | `string`  | -       | no       | Image alternative descriptive text                                                                      |
+| `data-msys-linkname` | `string`  | -       | no       | Data analytics attribute                                                                                |
+| `href`               | `string`  | -       | yes      | Link to url                                                                                             |
+| `isTableCell`        | `boolean` | `false` | no       | Render RatingItem as table cell when being used in combination with Rating component as parent directly |
+| `rel`                | `string`  | -       | no       | Relationship between a linked resource and the current document                                         |
+| `src`                | `string`  | -       | yes      | Image source                                                                                            |
+| `title`              | `string`  | `div`   | no       | Text located below icon                                                                                 |

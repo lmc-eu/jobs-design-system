@@ -17,18 +17,18 @@
       <td>Image alignment</td>
     </tr>
     <tr>
-      <td><code>height</code></td>
-      <td><code>unit(px,%)</code></td>
-      <td><code>24px</code></td>
-      <td>no</td>
-      <td>Image height</td>
-    </tr>
-    <tr>
       <td><code>externalLink</code></td>
       <td><code>string</code></td>
       <td>-</td>
       <td>no</td>
       <td>External link to some web page</td>
+    </tr>
+    <tr>
+      <td><code>height</code></td>
+      <td><code>unit(px,%)</code></td>
+      <td><code>24px</code></td>
+      <td>no</td>
+      <td>Image height</td>
     </tr>
     <tr>
       <td><code>imageAlt</code></td>
