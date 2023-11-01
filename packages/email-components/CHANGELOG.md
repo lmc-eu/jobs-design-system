@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.22.0"></a>
+
+# [0.22.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.20.1...@lmc-eu/jobs-email-components@0.22.0) (2023-11-01)
+
+### Chores
+
+- **release:** Publish ([ddbbed0](https://github.com/lmc-eu/jobs-design-system/commit/ddbbed0))
+
+### Features
+
+- **email-components:** Add data-msys-linkname attribute to links ([2677810](https://github.com/lmc-eu/jobs-design-system/commit/2677810))
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.21.0"></a>
 
 # [0.21.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.20.1...@lmc-eu/jobs-email-components@0.21.0) (2023-11-01)
