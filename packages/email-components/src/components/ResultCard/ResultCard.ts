@@ -112,10 +112,12 @@ export default class ResultCard extends BodyComponent {
                     <mjc-spacer />
                     ${this.generateSubtitle()}
                     <mjc-link
-                        data-msys-linkname="${this.getAttribute('data-msys-linkname')}"
-                        href="${this.link}"
-                        size="large"
-                        underline="none"
+                      ${this.htmlAttributes({
+                        'data-msys-linkname': this.getAttribute('data-msys-linkname'),
+                        href: this.link,
+                        size: 'large',
+                        underline: 'none',
+                      })}
                     >
                         ${this.title}
                     </mjc-link>

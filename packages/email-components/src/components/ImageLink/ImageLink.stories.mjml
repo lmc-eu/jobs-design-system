@@ -1,0 +1,12 @@
+<mjc-content>
+  <mj-column>
+    <mj-divider border-width="2px" border-color="#000000" />
+    <mj-text><strong>COMPONENT: ImageLink</strong> - mjc-image-link</mj-text>
+    <mjc-image-link
+      src="https://ijobs.cz/static/images/email/logo-jobs.png?1"
+      alt="jobs.cz logo"
+      href="https://jobs.cz"
+      data-msys-linkname="header"
+    />
+  </mj-column>
+</mjc-content>
