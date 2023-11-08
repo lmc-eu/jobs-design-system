@@ -27,6 +27,8 @@
 
     <mj-include path="../components/Heading/Heading.stories.mjml" />
 
+    <mj-include path="../components/ImageLink/ImageLink.stories.mjml" />
+
     <mj-include path="../components/Link/Link.stories.mjml" />
 
     <mj-include path="../components/RatingItem/RatingItem.stories.mjml" />

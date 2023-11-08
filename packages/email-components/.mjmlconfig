@@ -5,6 +5,7 @@
     "./dist/components/Content/Content.js",
     "./dist/components/Header/Header.js",
     "./dist/components/Heading/Heading.js",
+    "./dist/components/ImageLink/ImageLink.js",
     "./dist/components/Link/Link.js",
     "./dist/components/Rating/Rating.js",
     "./dist/components/RatingItem/RatingItem.js",

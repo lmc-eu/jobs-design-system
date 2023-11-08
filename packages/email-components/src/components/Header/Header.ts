@@ -41,6 +41,7 @@ export default class Header extends BodyComponent {
 
   static allowedAttributes = {
     alight: 'enum(left,right,center)',
+    'data-msys-linkname': 'string',
     externalLink: 'string',
     height: 'unit(px,%)',
     imageAlt: 'string',
@@ -63,14 +64,17 @@ export default class Header extends BodyComponent {
     return this.renderMJML(`
       <mj-section padding="0">
         <mj-column css-class="Header" padding="22px">
-          <mj-image
-            align="${this.align}"
-            alt="${this.imageAlt}"
-            height="${this.height}"
-            href="${this.externalLink}"
-            padding="0"
-            src="${this.imageUrl}"
-            width="${this.width}"
+          <mjc-image-link
+            ${this.htmlAttributes({
+              align: this.align,
+              alt: this.imageAlt,
+              'data-msys-linkname': this.getAttribute('data-msys-linkname'),
+              height: this.height,
+              href: this.externalLink,
+              padding: 0,
+              src: this.imageUrl,
+              width: this.width,
+            })}
           />
         </mj-column>
       </mj-section>
