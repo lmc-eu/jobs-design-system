@@ -41,6 +41,7 @@ $action-unselected-hover: #849499 !default;
 $background-backdrop: #171717b2 !default;
 $background-basic: #fff !default;
 $background-cover: #f8f8f8 !default;
+$background-hero: #f4f7ff !default;
 $background-interactive-active: #969eaf33 !default;
 $background-interactive-default: #17171700 !default;
 $background-interactive-hover: #969eaf1a !default;
@@ -135,6 +136,7 @@ $background-colors: (
     backdrop: $background-backdrop,
     basic: $background-basic,
     cover: $background-cover,
+    hero: $background-hero,
     interactive-active: $background-interactive-active,
     interactive-default: $background-interactive-default,
     interactive-hover: $background-interactive-hover,
