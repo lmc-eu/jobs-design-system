@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.12.0"></a>
+
+# [0.12.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.11.0...@lmc-eu/jobs-icons@0.12.0) (2023-12-04)
+
+### Bug Fixes
+
+- **icons:** Ignore sprite.svg while generating React icon components ([06ac076](https://github.com/lmc-eu/jobs-design-system/commit/06ac076))
+
+### Code Refactoring
+
+- **icons:** Create shared filter function for SVG build scripts ([e170ac5](https://github.com/lmc-eu/jobs-design-system/commit/e170ac5))
+
+### Features
+
+- **icons:** Add icon `Pdf` in the colored variant ([dab8a26](https://github.com/lmc-eu/jobs-design-system/commit/dab8a26))
+- **icons:** Do not remove colors from icons with -colored suffix ([9f25da0](https://github.com/lmc-eu/jobs-design-system/commit/9f25da0))
+- **icons:** Remove the `Twitter` icon in favor of `X` ([c583303](https://github.com/lmc-eu/jobs-design-system/commit/c583303))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.11.0"></a>
 
 # [0.11.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.8.1...@lmc-eu/jobs-icons@0.11.0) (2023-09-06)
