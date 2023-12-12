@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.13.0"></a>
+
+# [0.13.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.12.0...@lmc-eu/jobs-icons@0.13.0) (2023-12-12)
+
+### BREAKING CHANGES
+
+- **icons:** Remove duplicate icons of the social sites ([8dff8c4](https://github.com/lmc-eu/jobs-design-system/commit/8dff8c4))
+
+### Features
+
+- **icons:** Unify multicolored icons of the social sites with Spirit [#JALL-488](https://github.com/lmc-eu/jobs-design-system/issues/JALL-488) ([ef6bbc6](https://github.com/lmc-eu/jobs-design-system/commit/ef6bbc6))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.12.0"></a>
 
 # [0.12.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.11.0...@lmc-eu/jobs-icons@0.12.0) (2023-12-04)
