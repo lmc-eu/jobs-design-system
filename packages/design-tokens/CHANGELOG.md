@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.11.0"></a>
+
+# [1.11.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.10.1...@lmc-eu/jobs-design-tokens@1.11.0) (2024-03-18)
+
+### Features
+
+- **design-tokens:** Add `background-hero` color [#JOBS-9750](https://github.com/lmc-eu/jobs-design-tokens/issues/JOBS-9750) ([d9fd3a6](https://github.com/lmc-eu/jobs-design-tokens/commit/d9fd3a6))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.10.1"></a>
 
 ## [1.10.1](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.10.0...@lmc-eu/jobs-design-tokens@1.10.1) (2023-10-26)
