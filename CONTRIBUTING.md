@@ -24,8 +24,9 @@ This project uses GitHub Actions to publish the packages automatically to npm. N
 
 ### Steps to create a new package version
 
-1. Merge all appropriate PRs you want to publish into main branch
-1. Run the `make version` command to bump the version number in packages (new version number is determined automatically based on commit history)
+1. Please, manually edit commit message according [commit guidelines](#commit-messages) to ensure proper version and changelog
+1. Merge all appropriate PRs you want to publish into `main` branch
+1. Checkout to the `main` branch and run the `make version` command to bump the version number in packages (new version number is determined automatically based on commit history)
 1. Check that the version number is correct and everything looks good
 1. Run manually `git push && git push --tags` to push the changes to remote
 1. Publishing is done automatically by GitHub Actions (uses `build` script and `make publish` command)
