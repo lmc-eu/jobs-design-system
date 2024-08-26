@@ -60,7 +60,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "fancy-log": "^2.0.0",
     "prettier": "^2.8.7",
-    "sass": "^8.0.0",
     "sass-loader": "^13.2.2",
     "style-loader": "^3.3.2",
     "stylelint": "^14.11.0",
