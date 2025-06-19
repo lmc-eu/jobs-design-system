@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.13.0"></a>
+
+# [1.13.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.12.0...@lmc-eu/jobs-design-tokens@1.13.0) (2025-06-19)
+
+### Bug Fixes
+
+- **design-tokens:** Rename angle CSS property to be compatible with Spirit V2 ([23a0b24](https://github.com/lmc-eu/jobs-design-tokens/commit/23a0b24))
+
+**Note:** Version bump only for package @lmc-eu/jobs-design-tokens
+
 <a name="1.12.0"></a>
 
 # [1.12.0](https://github.com/lmc-eu/jobs-design-tokens/compare/@lmc-eu/jobs-design-tokens@1.11.0...@lmc-eu/jobs-design-tokens@1.12.0) (2024-04-24)

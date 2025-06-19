@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.17.0"></a>
+
+# [0.17.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.15.0...@lmc-eu/jobs-icons@0.17.0) (2025-06-19)
+
+### Chores
+
+- **release:** Publish ([fd71b6d](https://github.com/lmc-eu/jobs-design-system/commit/fd71b6d))
+
+### Features
+
+- **icons:** Add icon of the uploaded file in the colored variant ([63d7598](https://github.com/lmc-eu/jobs-design-system/commit/63d7598))
+
+**Note:** Version bump only for package @lmc-eu/jobs-icons
+
 <a name="0.16.0"></a>
 
 # [0.16.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-icons@0.15.0...@lmc-eu/jobs-icons@0.16.0) (2024-08-26)

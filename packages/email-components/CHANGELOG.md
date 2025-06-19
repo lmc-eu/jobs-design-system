@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.27.0"></a>
+
+# [0.27.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.25.0...@lmc-eu/jobs-email-components@0.27.0) (2025-06-19)
+
+### Chores
+
+- **email-components:** Remove `sass` from dev dependencies ([86937f2](https://github.com/lmc-eu/jobs-design-system/commit/86937f2))
+- **release:** Publish ([fd71b6d](https://github.com/lmc-eu/jobs-design-system/commit/fd71b6d))
+
+### Dependencies
+
+- **email-components:** Use `sass` dependency instead of deprecated `node-sass` ([b235b03](https://github.com/lmc-eu/jobs-design-system/commit/b235b03))
+
+**Note:** Version bump only for package @lmc-eu/jobs-email-components
+
 <a name="0.26.0"></a>
 
 # [0.26.0](https://github.com/lmc-eu/jobs-design-system/compare/@lmc-eu/jobs-email-components@0.25.0...@lmc-eu/jobs-email-components@0.26.0) (2024-08-26)
